@@ -22,9 +22,11 @@ title: Man Ho Wong
 email: m.wong@pitt.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Neuroscinece researcher at Pitt.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  manhowong
+linkedin_username: manhowong
 
 # Build settings
 theme: minima
