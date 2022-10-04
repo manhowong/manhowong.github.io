@@ -5,6 +5,7 @@
 layout: about
 title: about,
 order: 0
+invisible: true
 ---
 
 /wɔːŋ˩ mɐn˩ hou˩/ 王文豪   
