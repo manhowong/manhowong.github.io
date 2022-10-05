@@ -190,6 +190,11 @@
     display: none;
   }
 
+
+  .nav-trigger {
+    display: none;
+  }
+
   .nav-list-title {
     display: none;
   }
@@ -250,6 +255,24 @@
     text-align: right;
     margin-left: 20px;
 
+    .nav-trigger {
+      display: none;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      z-index: 2;
+      cursor: pointer;
+    }
+
     .menu-icon {
       display: block;
       float: right;
@@ -264,12 +287,12 @@
       }
     }
 
-    .trigger {
+    input ~ .trigger {
       clear: both;
       display: none;
     }
 
-    &:hover .trigger {
+    input:checked ~ .trigger {
       display: block;
       padding-bottom: 5px;
     }
