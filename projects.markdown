@@ -39,7 +39,7 @@ div.desc {
 <a href="/research/#lexical-semantic-network-analysis-in-children-from-different-socio-economic-backgrounds">
     <div class="gallery">  
         <img src="/assets/img/eve_network_by_ecc.svg">
-        <div class="desc">Lexical semantic network analysis in children from different socio-economic backgrounds</div>
+        <div class="desc">Lexical semantic network growth in children from different socio-economic backgrounds</div>
     </div>
 </a>
 
