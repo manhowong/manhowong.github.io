@@ -14,6 +14,7 @@ div.gallery {
   float: left;
   width: 45%;
   height: 400px;
+  line-height: 110%;
 }
 
 div.gallery:hover {
