@@ -5,10 +5,11 @@ permalink: /bio/
 order: 0
 ---
 
+<br/>
+
 I will try to keep this short.
 
-## Undergraduate and doctoral training
-
+**Undergraduate and doctoral training**  
 I have always been interested in life sciences, or simply life itself as I realized later. I am equally fascinated by language and perception. However, growing up in a low-income family, there are unfortunately [other considerations](https://www.washingtonpost.com/business/2022/07/08/dept-of-data-academia-elite/) in life besides your passions. I was no exception. In the end I chose to study applied biology and biotechnology in university, the more "practical" fields (in terms of job prospects) as I thought at the time which are still aligned with my interests.
 
 At the end of my second year in university, I got an opportunity to work on a research project on developmental biology at Caltech during the summer. Not only did it present me the beauty of development, it also let me see myself in a research career as a first-generation university student. After my undergraduate training, I finally decided to pursue my research passion and moved to Germany to study neuroscience.
@@ -17,8 +18,7 @@ At the end of my second year in university, I got an opportunity to work on a re
 
 While I was studying the neural correlates of vision development in Germany, I came across Buddhism and immediately found myself drawn to their worldview, in particular their view on time perception. [Time perception](https://en.wikipedia.org/wiki/Time_perception) has a central role in human cognition, including decision making and motivation. To learn more about the neural circuitry governing motivation-guided behaviors, I started my postdoctoral project in my current lab which was hosted at the Picower Institute for Learning and Memory at MIT then.
 
-## Postdoctoral training and career transition
-
+**Postdoctoral training and career transition**  
 Picower is housed in the same building with other MIT's brain sciences departments and research centers, including labs working on the cognitive branch of linguistics. Building 46 (as it is affectionately called) is the place where I was introduced to linguistics research and where I saw the possibility to combine my interests in different fields for the first time. During my time there, I went to talks and seminars in psycho- and cognitive linguistics as far as my schedule allowed, although at the time I had only a very basic knowledge of linguistics. Nevertheless, the exciting linguistics works happening in Building 46 opened a whole new world for me.
 
 <div style="float:left; padding: 10px; width: 35%;"><a target="_blank" href="/img/rosh_hashanah.jpg"><img src="/img/rosh_hashanah.jpg"></a><div style="font-size: 14px; line-height: 1.3;">Celebrating Rosh Hashanah (the Jewish New Year) with my housemates at Brown in multiple languages.</div></div>
