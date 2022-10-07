@@ -167,16 +167,17 @@ h4 {
  * Links
  */
 a {
-  color: $brand-color;
-  text-decoration: none;
+  color: $text-color;
+  text-decoration: underline;
+  text-decoration-color: $brand-color;
+  text-decoration-thickness: 15%;
 
   &:visited {
-    color: darken($brand-color, 5%);
+    color: $text-color;
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: darken($brand-color, 5%);
   }
 }
 

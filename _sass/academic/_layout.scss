@@ -135,9 +135,14 @@
   letter-spacing: -1px;
   margin-bottom: -5px;
 
+  a {
+    text-decoration: none;
+  }
+
   &,
   &:visited {
     color: $grey-color-dark;
+    text-decoration: none;
   }
   &:hover {
     text-decoration: none;
@@ -210,6 +215,7 @@
 
       .page-link {
         color: $text-color;
+        text-decoration: none;
 
         &:hover {
           text-decoration: none;
@@ -330,6 +336,7 @@
 
   a {
     color: $grey-color;
+    text-decoration: none;
   }
 
   .footer-col {
@@ -392,8 +399,14 @@
   }
 
   .contact-list {
+    a {
+      text-decoration: none;
+    }
     a .username:hover {
       text-decoration: underline;
+    }
+    a .username:visited {
+      text-decoration: none;
     }
 
     @include media-query($on-palm) {
@@ -734,7 +747,16 @@
   margin-top: $spacing-unit / 2;
   text-transform: lowercase;
 
-  a:hover {
+  a {
+    color: $brand-color;
+    text-decoration: none;
+  }
+  a .username:hover {
+    color: $text-color;
+    text-decoration: none;
+  }
+  a .username:visited {
+    color: $brand-color;
     text-decoration: none;
   }
 }
