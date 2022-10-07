@@ -3,12 +3,12 @@
 ---
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:800|PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Open+Sans:400|PT+Serif');
 
 // Our variables
-// $base-font-family: "Open Sans", sans-serif;
-$base-font-family: "PT Serif", serif;
-$base-font-size:   20px;
+$base-font-family: "Open Sans", sans-serif;
+// $base-font-family: "PT Serif", serif;
+$base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.95;
 $base-line-height: 1.5;
