@@ -5,9 +5,9 @@ permalink: /bio/
 order: 0
 ---
 
-## Undergraduate and doctoral training
-
 I will try to keep this short.
+
+## Undergraduate and doctoral training
 
 I have always been interested in life sciences, or simply life itself as I realized later. I am equally fascinated by language and perception. However, growing up in a low-income family, there are unfortunately [other considerations](https://www.washingtonpost.com/business/2022/07/08/dept-of-data-academia-elite/) in life besides your passions. I was no exception. In the end I chose to study applied biology and biotechnology in university, the more "practical" fields (in terms of job prospects) as I thought at the time which are still aligned with my interests.
 
