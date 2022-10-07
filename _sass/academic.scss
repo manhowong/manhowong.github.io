@@ -5,8 +5,8 @@ $type-scale-large: (
   h2: 2.111rem,
   h3: 1.663rem,
   h4: 1.333rem,
-  p: 1.25rem,
-  small: 1.15rem,
+  p: 1.15rem,
+  small: 1.1rem,
   vsmall: 1rem,
 );
 
@@ -78,7 +78,7 @@ $breakpoint-small: 45em;
   }
 }
 
-$base-font-family: "PT Serif", serif !default;
+$base-font-family: "Open Sans", sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
