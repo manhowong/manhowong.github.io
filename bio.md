@@ -7,7 +7,7 @@ order: 0
 
 <br/>
 
-I think a bio might be more engaging that a CV, but I will try to keep this short...
+I think a bio might be more engaging than a CV, but I will try to keep this short...
 
 **Undergraduate and doctoral training**  
 I have always been interested in life sciences, or simply life itself as I realized later. I am equally fascinated by language and perception. However, growing up in a low-income family, there were unfortunately [other considerations](https://www.washingtonpost.com/business/2022/07/08/dept-of-data-academia-elite/) in life besides my passions. In the end I chose to study applied biology and biotechnology in university, the more "practical" fields (in terms of job prospects) as I thought at the time which are still aligned with my interests.
