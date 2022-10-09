@@ -44,7 +44,7 @@ order: 2
 <a href="/research/#lexical-semantic-network-analysis-in-children-from-different-socio-economic-backgrounds">
     <div class="gallery">  
         <img src="/img/eve_network_by_ecc.svg">
-        <div class="desc">Lexical semantic network growth in children from different socio-economic backgrounds</div>
+        <div class="desc">Lexical-semantic network growth in children from different socio-economic backgrounds</div>
     </div>
 </a>
 
@@ -76,8 +76,14 @@ order: 2
     </div>
 </a>
 
+<a href="/projects/idle_synapse">
+    <div class="gallery">  
+        <img>
+        <div class="desc">Circuit refinement in mouse visual cortex during development</div>
+    </div>
+</a>
 
 <div class="gallery">  
     <img>
-    <div class="desc">Past projects (coming soon)</div>
+    <div class="desc">More past projects will be added soon</div>
 </div>

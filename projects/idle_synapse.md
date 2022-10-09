@@ -1,0 +1,21 @@
+---
+layout: page
+title: Circuit refinement in mouse visual cortex during development
+permalink: /projects/idle_synapse
+invisible: true
+
+---
+
+(The paper including parts of this work is expected to be submitted in 2022 and hopefully getting published in 2023)
+
+Circuit refinement is an important developmental process ensuring correct wiring of synaptic connections. During circuit refinement, favorable connections are generated or strengthened while unfavored ones are weakened or eliminated. This rewiring of synaptic connections during development is not a random but a sophisticated process with activity- or experience-dependent plasticity involved.
+
+Alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptor (AMPAR)-silent synapses, lacking AMPARs and therefore not transmitting at resting potential, act as the substrates for plasticity and likely play an essential role in circuit refinement. Large amounts of silent synapses at the early stages of development form a malleable network of synapses, potentially providing a template for circuit refinement. Huang et al. (2015) show that silent synapse maturation determines the closure of a critical period in an experience-dependent manner. Specifically, they observed a developmental decrease in the silent synapse fraction during the critical period. This suggests that synapse maturation is involved in the circuit refinement during this period, functioning as a mechanism for the formation of favorable connections. Nevertheless, the silent synapse fraction is only a relative measurement which does not tell us about the changes of the exact number of silent or AMPAR-positive (AMPAR+) synapses (synapses conducting AMPAR-mediated transmission).
+
+To understand the role of synapse maturation in circuit refinement, this study began with identifying key changes in synapse connectivity during this process, specifically the silent synapse and AMPAR+ synapse numbers. With miniature excitatory postsynaptic current (mEPSC) recording, I found that there was a two-fold increase in mEPSC frequency and a significant decrease in mEPSC amplitude upon eye opening, but both remained unchanged afterwards. The unchanged frequency after eye opening suggests that AMPAR+ synapse number remained unchanged after eye opening, in contrast to the decrease in silent synapse fraction during the same period. Taken together, these results indicated a homeostasis of mEPSC frequency during circuit refinement. This homeostasis could be achieved through certain compensatory mechanisms which counteract the effect of silent synapse maturation on mEPSC frequency.
+
+In this study, I assessed three potential mechanisms for the homeostasis of mEPSC frequency: changes in release probability, maturation of labile synapses (synapses that can be silenced by repeated activation) and AMPAR desensitization during development. While changes in release probability and labile synapse maturation were not detected, I found that mEPSC frequency increased by more than three fold by blocking desensitization with trichlormethiazide (TCM), but a similar change in evoked EPSC amplitude was absent. Moreover, release probability assessed by NMDAR blockage with MK-801 was unaffected by TCM. These results not only provide evidence that desensitization of a certain type of AMPAR+ synaptic transmission sites may account for the homeostasis, these transmission sites (referred as "idle sites" in this study) may also explain the dissociation of evoked and spontaneous neurotransmitter release observed in other studies.
+
+To conclude, the developmental homeostasis of mEPSC frequency reported in this study suggests a physiological role of spontaneous transmission in synaptic plasticity. It provides an additional mechanism for homeostatic plasticity, distinct from the current view of synaptic scaling. Furthermore, this study proposed an unknown class of transmission sites containing desensitized AMPARs, the "idle sites". In addition to potentially mediating the homeostasis of mEPSC frequency, idle sites also serve as a direct evidence for the dissociation of spontaneous and evoked transmission. With these findings, this study open new directions in the study of synaptic transmission.
+
+[Read more](http://dx.doi.org/10.53846/goediss-7259)
