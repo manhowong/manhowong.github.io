@@ -27,7 +27,7 @@ repo: https://github.com/manhowong/manhowong.github.io
 cc: by-nc-sa
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://manhowong.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://manhowong.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  manhowong
 linkedin_username: manhowong
 
