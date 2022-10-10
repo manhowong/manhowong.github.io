@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lexical-semantic network growth in children from different socio-economic backgrounds
-permalink: /projects/sem_network
+permalink: /projects/sem-network
 invisible: true
 
 ---

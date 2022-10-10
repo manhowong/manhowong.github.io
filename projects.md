@@ -41,7 +41,7 @@ order: 2
 </head>
 <body>
 
-<a href="/projects/sem_network">
+<a href="/projects/sem-network">
     <div class="gallery">  
         <img src="/img/eve_network_by_ecc.svg">
         <div class="desc">Lexical-semantic network growth in children from different socio-economic backgrounds</div>
