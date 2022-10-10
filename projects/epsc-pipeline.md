@@ -12,9 +12,9 @@ The analysis of EPSC signals from single-neuron recordings involves multiple pro
 
 ## Current development
 
-I created this project because of the lack of suitable tools to analyze my data, but I decided to expand the project and to create a streamlined data analysis pipeline for EPSC data. At the moment, the analysis pipeline includes automatic reading of EPSC signal data, sample grouping and filtering by custom variables, common statistical tests (e.g. ANOVA), bootstrapping, distribution fitting and processed data exporting for analysis with specialized tools. The pipeline also includes computation of electrical properties of neuronal membranes such as resistance and capacitance.
+I created this project because of the lack of suitable tools to analyze my data, but I decided to expand the project and created a streamlined data analysis pipeline for EPSC data. At the moment, the analysis pipeline includes automatic reading of EPSC signal data, sample grouping and filtering by custom variables, common statistical tests (e.g. ANOVA), bootstrapping, distribution fitting and processed data exporting for analysis with specialized tools. The pipeline also includes computation of electrical properties of neuronal membranes such as resistance and capacitance.
 
-Most of the pipeline's functions are traditionally done manually in my field and this pipeline makes the analysis of large datasets possible (or at least much more efficient). To faccilitate data sharing within the community and thus making data mining from large amount of shared data possible, another goal of this project is to share my data with a standardized data format with the neuroscience community (this will be done after my work is published, probably in 2023). 
+Most of the pipeline's functions are traditionally done manually in my field and this pipeline makes the analysis of large datasets possible (or at least much more efficient). To facilitate data sharing within the community and thus making data mining from large amount of shared data possible, another goal of this project is to share my data with a standardized data format with the neuroscience community (this will be done after my work is published, probably in 2023). 
 
 ## Future plan
 
