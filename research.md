@@ -8,14 +8,14 @@ order: 1
 I am interested in the development of two cognitive functions: motivation and language. In the future, I hope to explore language acquisition more, an area which synthesizes my interests in language, motivation and development. Growing up poor, I also hope my research will help to promote social equity one day...
 
 Current research:  
-- [Lexical-semantic network analysis in children from different socio-economic backgrounds](#lexical-semantic-network-analysis-in-children-from-different-socio-economic-backgrounds)
+- [Lexical-semantic network growth in children from different socio-economic backgrounds](#lexical-semantic-network-growth-in-children-from-different-socio-economic-backgrounds)
 - [Experience-dependent maturation of the reward circuitry](#experience-dependent-maturation-of-the-reward-circuitry)
 - For other related projects, [see here](/projects). 
 
 Past research:  
 *Coming soon*
 
-## Lexical-semantic network analysis in children from different socio-economic backgrounds
+## Lexical-semantic network growth in children from different socio-economic backgrounds
 
 [GitHub Repo](https://github.com/Data-Science-for-Linguists-2022/Child-Vocab-Development)
 
