@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: about
-title: About
+title: Man Ho Wong | Researcher at Pitt
 invisible: true
 ---
 
