@@ -8,34 +8,34 @@ order: 2
 <html>
 <head>
 <style>
-
-    div.card img {
+  div.card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     background-color: rgba(0, 204, 92, 0.925);
     filter: contrast(0.9);
-    }
-
-    div.card:hover {
-    border: 1px solid rgba(0, 204, 92, 0.925);
-    }
+  }
+  div.card:hover {
+  border: 1px solid rgba(0, 204, 92, 0.925);
+  }
 
 </style>
 </head>
 <body>
 
+<p></p>
+
 <div class="row row-cols-1 row-cols-md-2 g-4">
 
-  <div class="col">
+  <div class="col">    
     <div class="card">
-        <img class="card-img-top" src="/img/eve_network_by_ecc.svg">
-        <div class="card-body">
-            <h5 class="card-title">Research</h5>
-            <p class="card-text">Lexical-semantic network growth in children from different socio-economic backgrounds</p>
-            <a href="/projects/sem-network">Read more...</a>
-        </div>
-    </div>
+      <img class="card-img-top" src="/img/eve_network_by_ecc.svg">
+      <div class="card-body">
+        <h5 class="card-title">Research</h5>
+        <p class="card-text">Lexical-semantic network growth in children from different socio-economic backgrounds</p>
+        <a href="/projects/sem-network">Read more...</a>
+      </div>
+    </div>    
   </div>
 
   <div class="col">
@@ -73,11 +73,22 @@ order: 2
 
   <div class="col">
     <div class="card">
-        <img src="/img/concAndSavePanel.PNG" class="card-img-top">
+        <img src="/img/concAndSavePanel.png" class="card-img-top">
         <div class="card-body">
             <h5 class="card-title">Software</h5>
             <p class="card-text">Igor Pro Tools for Electrophysiological Data</p>
             <a href="https://github.com/manhowong/igor-pro-tools">Read more...</a>
+        </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+        <img class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">Research</h5>
+            <p class="card-text">EPSC data management and analysis pipeline for large datasets</p>
+            <a href="/projects/epsc-pipeline">Read more...</a>
         </div>
     </div>
   </div>
@@ -109,17 +120,6 @@ order: 2
         <img class="card-img-top">
         <div class="card-body">
             <h5 class="card-title">Research</h5>
-            <p class="card-text">EPSC data management and analysis pipeline for large datasets</p>
-            <a href="/projects/epsc-pipeline">Read more...</a>
-        </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card">
-        <img class="card-img-top">
-        <div class="card-body">
-            <h5 class="card-title">Research</h5>
             <p class="card-text">Circuit refinement in mouse visual cortex during development</p>
             <a href="/projects/idle_synapse">Read more...</a>
         </div>
@@ -130,8 +130,8 @@ order: 2
     <div class="card">
         <img class="card-img-top">
         <div class="card-body">
-            <h5 class="card-title">Research</h5>
-            <p class="card-text">More past projects will be added soon</p>
+            <h5 class="card-title">Coming soon...</h5>
+            <p class="card-text">More projects will be uploaded</p>
         </div>
     </div>
   </div>
