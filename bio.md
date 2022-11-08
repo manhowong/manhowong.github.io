@@ -10,7 +10,7 @@ order: 0
 I think a bio might be more engaging than a CV, but I will try to keep it short...
 
 **Undergraduate and doctoral training**  
-I have always been interested in life sciences, or simply life itself as I realized later. I am equally fascinated by language and perception. However, growing up in a low-income family, there were unfortunately [other considerations](https://www.washingtonpost.com/business/2022/07/08/dept-of-data-academia-elite/) in life besides my passions. In the end I chose to study applied biology and biotechnology in university, the more "practical" fields (in terms of job prospects) as I thought at the time which are still aligned with my interests.
+I have always been interested in life sciences, or simply life itself as I realized later. I am equally fascinated by language and perception. However, growing up in a low-income family, there were unfortunately other considerations (<a target="_blank" href="https://www.washingtonpost.com/business/2022/07/08/dept-of-data-academia-elite/">a serious problem in today's academia</a>) in life besides my passions. In the end, I chose to study applied biology and biotechnology in university, the more "practical" fields (in terms of job prospects) as I thought at the time which are still aligned with my interests.
 
 At the end of my second year in university, I got an opportunity to work on a developmental biology project at Caltech in the summer. Not only did it present me the beauty of development, it also let me see myself in a research career as a first-generation university student. After undergraduate study, I finally decided to pursue my academic passion and moved to Germany to study neuroscience.
 
