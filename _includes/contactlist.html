@@ -4,7 +4,7 @@
 </span>
 <ul class="contact-list {{ include.class }}">
   <li>
-    {% include _icons/rss.html %} <a href="/feed.xml">RSS feed</a>
+    {% include _icons/rss.html %}
   </li>
 
   {% if site.github_username %}
@@ -30,5 +30,8 @@
     {% include _icons/keybase.html username=site.keybase_username %}
   </li>
   {% endif %}
+  <li>
+    {% include _icons/website.html url=site.author_website %}
+  </li>
 
 </ul>
