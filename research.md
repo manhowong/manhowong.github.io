@@ -5,7 +5,7 @@ permalink: /research/
 order: 1
 ---
 
-I am interested in the development of two cognitive functions: motivation and language. In the future, I hope to explore language acquisition more, an area which synthesizes my interests in language, motivation and development. Growing up poor, I also hope my research will help to promote social equity one day...
+I am interested in the development of two cognitive functions: motivation and language. In the future, I hope to explore more into language acquisition, an area combining my interests in language, motivation and development. One of my life goals is to promote social equity through science and education.
 
 Current research:  
 - [Lexical-semantic network growth in children from different socio-economic backgrounds](#lexical-semantic-network-growth-in-children-from-different-socio-economic-backgrounds)
@@ -25,7 +25,7 @@ The data used in this project contains more than 5.5 million words from 13 corpo
 
 This project demonstrates the possibility of studying early vocabulary development with semantic network analysis using a combined source of data. In addition to child language development, the data analysis framework developed in this project can also be used in other studies such as adult language acquisition and bilingualism.
 
-Timeline: This work is close to completion and is expected to be published in 2023.
+This work is close to completion and is expected to be published in 2023.
 
 ## Experience-dependent maturation of the reward circuitry
 
@@ -35,4 +35,4 @@ Stresses experienced in early life increase the susceptibility to a wide range o
 
 This project uses the mouse brain as a model to study the neural correlates of reward-motivated cognitive functions. Environmental stress is induced in young pups. Cell-type specific electrophysiological recordings are performed to study the effects of early life experience on synaptic connectivity in the reward circuitry in the NAc. Behaviors in adulthood are analyzed to look for links between the synaptic changes in the NAc and the impairments of reward-motivated cognitive functions.
 
-Timeline: This work is close to completion and is expected to be published in 2023.
+This work is close to completion and is expected to be published in 2023.
