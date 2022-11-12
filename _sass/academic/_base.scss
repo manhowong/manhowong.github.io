@@ -169,6 +169,7 @@ h4 {
 a {
   color: $text-color;
   text-decoration: underline;
+  text-decoration-skip-ink: none;
   text-decoration-color: $brand-color;
   text-decoration-thickness: 3px;
   text-underline-offset: 20%;

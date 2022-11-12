@@ -19,7 +19,7 @@ At the end of my second year in university, I got an opportunity to work on a de
 While I was studying the neural correlates of vision development in Germany, I came across Buddhism and immediately found myself drawn to their worldview, in particular their view on time perception. [Time perception](https://en.wikipedia.org/wiki/Time_perception) has a central role in human cognition, including decision making and motivation. To learn more about the neural circuitry governing motivation-guided behaviors, I started my postdoctoral research in my current lab which was hosted at the Picower Institute for Learning and Memory at MIT then.
 
 **Postdoctoral training and career transition**  
-Picower is housed in the same building with other MIT's brain sciences departments, including labs working on the cognitive branch of linguistics. Building 46 (as it is affectionately called) is the place where I was first ntroduced to linguistics research and where I saw the possibility to combine my interests in different fields. During my time there, I went to talks and seminars in psycho- and cognitive linguistics as far as my schedule allowed, although at the time I had only a very basic knowledge of linguistics. Nevertheless, the exciting linguistics works happening in Building 46 opened a whole new world for me.
+Picower is housed in the same building with other MIT's brain sciences departments, including labs working on the cognitive branch of linguistics. Building 46 (as it is affectionately called) is the place where I was first introduced to linguistics research and where I saw the possibility to combine my interests in different fields. During my time there, I went to talks and seminars in psycho- and cognitive linguistics as far as my schedule allowed, although at the time I had only a very basic knowledge of linguistics. Nevertheless, the exciting linguistics works happening in Building 46 opened a whole new world for me.
 
 <div style="float:left; margin-right: 20px; width: 35%;"><a target="_blank" href="/img/rosh_hashanah.jpg"><img src="/img/rosh_hashanah.jpg" style="margin-bottom: 10px; box-shadow: 10px 10px #DDD"></a><div style="font-size: 14px; line-height: 1.3;">Celebrating Rosh Hashanah (the Jewish New Year) with housemates at Brown in multiple languages.</div></div>
  
@@ -31,7 +31,7 @@ During my last year of postdoctoral training, the lab relocated to Pittsburgh in
 
 --
 
-I think I should stop here as it's getting too long for an internet post about a random person. If you are interested, I am happy to provide my CV ([email](mailto:mh.wongg@gmail.com)). I also invite you to connect with me on [LinkedIn](https://www.linkedin.com/in/manhowong).
+I think I should stop here as it's getting too long for an internet post about a random person. If you are interested in learning more about me, I am very honoured and am happy to provide my CV (<a href="mailto:{{ site.email }}">email</a>). I would also like to invite you to connect with me on [LinkedIn](https://www.linkedin.com/in/manhowong).
 
-Fall 2022  
+November 2022  
 Pittsburgh, PA, USA
