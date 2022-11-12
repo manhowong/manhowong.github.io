@@ -21,8 +21,9 @@
 title: Man Ho Wong   # site and also browser title
 # title_html: "<b>Man Ho Wong</b>"  # bold site title in site banner
 email: m.wong@pitt.edu
+author_website: https://manhowong.github.io/
 description: >- # this means to ignore newlines until "baseurl:"
-  Man Ho Wong is a researcher interested in the science of language, motivation and development. 
+  Man Ho Wong is an interdisciplinary researcher interested in the science of language, motivation and development. He did his undergraduate study in Asia, PhD study in Europe and postdoctoral training in the US.
 repo: https://github.com/manhowong/manhowong.github.io
 cc: by-nc-sa
 

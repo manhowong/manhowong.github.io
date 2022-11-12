@@ -1,7 +1,14 @@
 {% assign plang = page.lang | default: site.langs[0] | default: "en" %}
 {% assign i18n = site.data.academic_i18n %}
-<footer class="site-footer">
 
+<head>
+  <style>
+    #particles-js{background:none;position:absolute; top:auto; left:0; width:100%;height:100%;z-index:-1;}
+  </style>
+</head>
+
+<footer class="site-footer">
+  <div id="particles-js"></div>  <!-- particles.js container -->
   <div class="wrapper">
 
       <ul class="footer-col footer-col-1">
@@ -80,3 +87,11 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+<!-- particles.js container -->
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+<script>
+  particlesJS("particles-js", {"particles":{"number":{"value":38,"density":{"enable":true,"value_area":1603.4120608655228}},"color":{"value":"#000000"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5451601006942778,"random":false,"anim":{"enable":true,"speed":2.1114007519834974,"opacity_min":0,"sync":false}},"size":{"value":5,"random":false,"anim":{"enable":false,"speed":4,"size_min":0.3,"sync":false}},"line_linked":{"enable":true,"distance":288.6141709557941,"color":"#000000","opacity":0.4,"width":1},"move":{"enable":true,"speed":1,"direction":"none","random":true,"straight":true,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":0,"rotateY":0}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":false,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":250,"size":0,"duration":2,"opacity":0,"speed":3},"repulse":{"distance":73.08694910712106,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+</script>
+
+
