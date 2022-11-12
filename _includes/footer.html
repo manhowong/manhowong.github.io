@@ -3,12 +3,12 @@
 
 <head>
   <style>
-    #particles-js{background:none;position:absolute; top:auto; left:0; width:100%;height:100%;z-index:-1;}
+    #waves{background:none;position:absolute; top:auto; left:0; width:100%;height:100%;z-index:-1;}
   </style>
 </head>
 
 <footer class="site-footer">
-  <div id="particles-js"></div>  <!-- particles.js container -->
+  <canvas id="waves"></canvas>
   <div class="wrapper">
 
       <ul class="footer-col footer-col-1">
@@ -50,10 +50,11 @@
       {% endif %}
 
       <div class="tech">
-        <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> + <a target="_blank" href="https://github.com/gaalcaras/academic">Academic</a>
+        <!-- <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> + <a target="_blank" href="https://github.com/gaalcaras/academic">Academic</a>
         {% if site.repo %}
         + <a target="_blank" href="{{ site.repo }}">Source</a>
-        {% endif %}
+        {% endif %} -->
+        <a href="/imprint">Imprint</a>
       </div>
 
       <div class="legal">
@@ -88,10 +89,111 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 
-<!-- particles.js container -->
-<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+
 <script>
-  particlesJS("particles-js", {"particles":{"number":{"value":38,"density":{"enable":true,"value_area":1603.4120608655228}},"color":{"value":"#000000"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5451601006942778,"random":false,"anim":{"enable":true,"speed":2.1114007519834974,"opacity_min":0,"sync":false}},"size":{"value":5,"random":false,"anim":{"enable":false,"speed":4,"size_min":0.3,"sync":false}},"line_linked":{"enable":true,"distance":288.6141709557941,"color":"#000000","opacity":0.4,"width":1},"move":{"enable":true,"speed":1,"direction":"none","random":true,"straight":true,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":0,"rotateY":0}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":false,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":250,"size":0,"duration":2,"opacity":0,"speed":3},"repulse":{"distance":73.08694910712106,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+let canvas, H, W, ctx, wave, wave2, wave3, theta, start, end, ampl;
+
+window.onload = () => {
+  canvas = document.getElementById("waves")
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  ctx = canvas.getContext("2d");
+  
+  W = window.innerWidth;
+  H = window.innerHeight;
+  
+  wave = {
+    y: H/2,
+    length: 200000,
+    amplitude: H*0.16,
+    speed: 0.05
+  };
+  
+    wave2 = {
+    y: H/2,
+    length: 200000,
+    amplitude: H*0.10,
+    speed: 0.05
+  };
+  
+    wave3 = {
+    y: H/2,
+    length: 400000,
+    amplitude: H*0.05,
+    speed: 0.1
+  };
+
+  theta = 0;
+  theta2 = 45;
+  theta3 = 180;
+  window.requestAnimationFrame(animation);
+};
+
+function animation(timestamp) {
+  window.requestAnimationFrame(animation);
+
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  ctx.beginPath();
+  ctx.moveTo(0, H/2);
+  ctx.strokeStyle = `rgba(0, 204, 92, 0.7)`;
+  ctx.lineWidth = 0.5;
+  start = W*0.2;
+  end = W*0.8
+  
+  // wave
+  ctx.beginPath();
+  ctx.moveTo(0, H/2);
+  ampl = 0;
+  for (let i = 0; i < W; i++) {
+    if (i > start && i <= W/2) {
+      ampl = wave.amplitude*((i-start)/(W/2-start));
+    } else if (i > W/2 && i < end) {
+      ampl = wave.amplitude*((end-i)/(end-W/2));
+    } else {
+      ampl = 0;
+    }
+    ctx.lineTo(i, wave.y + Math.sin(i * wave.length + theta) * ampl);
+  }
+  ctx.stroke();
+  theta += wave.speed;
+  
+  // wave2
+  ctx.beginPath();
+  ctx.moveTo(0, H/2);
+  ampl = 0;
+  for (let i = 0; i < W; i++) {
+    if (i > start && i <= W/2) {
+      ampl = wave2.amplitude*((i-start)/(W/2-start));
+    } else if (i > W/2 && i < end) {
+      ampl = wave2.amplitude*((end-i)/(end-W/2));
+    } else {
+      ampl = 0;
+    }
+    ctx.lineTo(i, wave2.y + Math.sin(i * wave2.length + theta2) * ampl);
+  }
+  ctx.stroke();
+  theta2 += wave2.speed;
+  
+  // wave3
+  ctx.beginPath();
+  ctx.strokeStyle = `rgba(0, 204, 92, 0.925)`;
+  ctx.moveTo(0, H/4);
+  ampl = 0;
+  for (let i = 0; i < W; i++) {
+    if (i > start && i <= W/2) {
+      ampl = wave3.amplitude*((i-start)/(W/2-start));
+    } else if (i > W/2 && i < end) {
+      ampl = wave3.amplitude*((end-i)/(end-W/2));
+    } else {
+      ampl = 0;
+    }
+    ctx.lineTo(i, wave3.y + Math.sin(i * wave3.length + theta3) * ampl);
+  }
+  ctx.stroke();
+  theta3 += wave3.speed;
+  
+}
+
 </script>
-
-
