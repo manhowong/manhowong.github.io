@@ -307,6 +307,13 @@ hr {
   }
 }
 
+footer .icon > svg {
+  circle,
+  path:last-of-type {
+    fill: $grey-color-light;
+  }
+}
+
 /**
  * Footnotes
  */
@@ -347,4 +354,47 @@ form {
       }
     }
   }
+}
+
+/**
+ * Footer wave animation
+ */
+
+#waves {
+  background-color: black;
+  position:absolute;
+  top:auto;
+  left:0;
+  width:100%;
+  height:calc(100% - 60px);
+  z-index:-1;
+}
+
+/**
+ * Scroll to top button
+ */
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 15%;
+  z-index: 100;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0,204,92,1);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+}    
+#topBtn:hover {
+  color: rgba(0,204,92,0.925);
+  background-color: white;
+}
+#topBtn:focus {
+  color: white;
+  background-color: rgba(0,204,92,1);
 }

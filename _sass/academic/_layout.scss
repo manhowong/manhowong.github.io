@@ -201,7 +201,6 @@
     display: none;
   }
 
-
   .nav-trigger {
     display: none;
   }
@@ -275,7 +274,6 @@
       display: none;
     }
 
-
     label[for="nav-trigger"] {
       display: block;
       float: right;
@@ -338,10 +336,10 @@
 .site-footer {
   @include size(vsmall);
   border-top: 1px solid $grey-color-light;
-  color: $grey-color;
+  color: $grey-color-light;
 
   a {
-    color: $grey-color;
+    color: $grey-color-light;
     text-decoration: none;
   }
 
@@ -393,7 +391,7 @@
       &:hover {
         circle,
         path:last-of-type {
-          fill: $text-color;
+          fill: $grey-color-light;
         }
       }
     }
@@ -410,6 +408,7 @@
     }
     a .username:hover {
       text-decoration: underline;
+      color: $grey-color-light;
     }
     a .username:visited {
       text-decoration: none;
@@ -421,7 +420,7 @@
   }
 
   .bottom {
-    color: $grey-color-light;
+    color: rgb(99, 99, 99);
     width: 100%;
     clear: both;
     float: none;
@@ -434,7 +433,7 @@
     }
 
     a {
-      color: $grey-color-light;
+      color: rgb(99, 99, 99);
     }
 
     .cc-licence {

@@ -22,6 +22,7 @@ order: 2
   }
   div.card:hover {
   border: 1px solid rgba(0, 204, 92, 0.925);
+  transform: scale(1.03);
   }
   *.card-title {
     margin-top: 8px;
