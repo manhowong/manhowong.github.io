@@ -15,6 +15,8 @@ Current research:
 Past research:  
 *Coming soon*
 
+<!-- this span element prevent sticky header from covering anchor link -->
+<span id="lexical-semantic-network-growth-in-children-from-different-socio-economic-backgrounds" style="scroll-margin-top:60px;"></span>
 ## Lexical-semantic network growth in children from different socio-economic backgrounds
 
 [GitHub Repo](https://github.com/Data-Science-for-Linguists-2022/Child-Vocab-Development)
@@ -27,6 +29,8 @@ This project demonstrates the possibility of studying early vocabulary developme
 
 This work is close to completion and is expected to be published in 2023.
 
+<!-- this span element prevent sticky header from covering anchor link -->
+<span id="experience-dependent-maturation-of-the-reward-circuitry" style="scroll-margin-top:60px;"></span>
 ## Experience-dependent maturation of the reward circuitry
 
 (Finishing soon)

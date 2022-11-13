@@ -11,6 +11,8 @@ order: 3
 
 The mysterious symbols on the homepage of this site are the IPA symbols representing the pronunciation of my name in Cantonese (my first language). You can read more about Cantonese phonology <a target="_blank" href="https://en.wikipedia.org/wiki/Cantonese_phonology">here</a>.
 
+<!-- this span element prevent sticky header from covering anchor link -->
+<span id="tldr-word-clouds" style="scroll-margin-top:60px;"></span>
 ## TL;DR Word Clouds
 
 My [bio page](/bio) might still be too long by internet standard. Here is the TL;DR ("too long; didn't read") version: The word clouds below summarize my experience (education and work) as of *October 2022*. Because I am in the middle of career transition, you may notice that the word clouds contain words from different fields!
