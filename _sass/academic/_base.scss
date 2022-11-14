@@ -366,7 +366,8 @@ form {
   top:auto;
   left:0;
   width:100%;
-  height:calc(100% - 60px);
+  height: 100%;
+  // height:calc(100% - 60px);  // reserve 60px for sticky header
   z-index:-1;
 }
 

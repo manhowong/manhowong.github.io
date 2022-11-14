@@ -5,7 +5,7 @@ permalink: /research/
 order: 1
 ---
 
-I am interested in the development of two cognitive functions: motivation and language. In the future, I hope to explore more into language acquisition, an area combining my interests in language, motivation and development. One of my life goals is to promote social equity through science and education.
+I am interested in the development of two cognitive functions: motivation and language. In the future, I hope to explore more into language acquisition, an area combining my interests in language, motivation and development. One of my long-term goals is to be able to promote social mobility through my work.
 
 Current research:  
 - [Lexical-semantic network growth in children from different socio-economic backgrounds](#lexical-semantic-network-growth-in-children-from-different-socio-economic-backgrounds)
@@ -15,8 +15,6 @@ Current research:
 Past research:  
 *Coming soon*
 
-<!-- this span element prevent sticky header from covering anchor link -->
-<span id="lexical-semantic-network-growth-in-children-from-different-socio-economic-backgrounds" style="scroll-margin-top:60px;"></span>
 ## Lexical-semantic network growth in children from different socio-economic backgrounds
 
 [GitHub Repo](https://github.com/Data-Science-for-Linguists-2022/Child-Vocab-Development)
@@ -29,11 +27,7 @@ This project demonstrates the possibility of studying early vocabulary developme
 
 This work is close to completion and is expected to be published in 2023.
 
-<!-- this span element prevent sticky header from covering anchor link -->
-<span id="experience-dependent-maturation-of-the-reward-circuitry" style="scroll-margin-top:60px;"></span>
 ## Experience-dependent maturation of the reward circuitry
-
-(Finishing soon)
 
 Stresses experienced in early life increase the susceptibility to a wide range of psycho-pathological conditions in adulthood, such as addiction and depression. These conditions are likely driven by impairments in reward-motivated cognitive functions. For example, addiction exhibits compulsive reward-seeking behaviors while depression displays a generalized lack of motivation. These behaviors are regulated by the reward circuitry in the nucleus accumbens (NAc) of the basal forebrain, which integrates inputs from different brain areas, coordinating different cognitive functions. Currently, little is known about how the reward circuitry develops, nor how early life experience modulates the development of the reward circuitry. Besides, it is unclear how early life stress is mechanistically related to the impaired reward-motivated cognition in adulthood. Therefore, this project aims to (1) study the role of early life stress in the development of NAc circuitry; and (2) study the involvement of the change in NAc circuitry due to early life stress in the impaired reward-motivated behaviors in adulthood.
 

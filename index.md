@@ -7,13 +7,14 @@ title: Man Ho Wong | Researcher at Pitt
 invisible: true
 ---
 
-## /wɔːŋ˩mɐn˩hou˩/
+<h2>/wɔːŋ˩mɐn˩hou˩/ 
+<a href="/etc" style="text-decoration:none; color:rgba(0,204,92,0.925)"><sup>?</sup></a>
+</h2>
 
 Man Ho Wong, 王文豪 (*he/him*) 
 
-([TL;DR](/etc#tldr-word-clouds))  
 I am a neuroscientist/ biophysicist currently working at the University of Pittsburgh, USA. I am fascinated by the capacity of human cognition. The emergence of such a complex system through rudimentary processes during development intrigues me the most. I am particularly interested in two cognitive functions: motivation and language.
 
-At this stage of my career, I am studying the neural correlates of motivation-related behaviors ([read more](/research/#experience-dependent-maturation-of-the-reward-circuitry)). I have also started a project looking at the development of lexical-semantic networks in young children ([read more](research/#lexical-semantic-network-analysis-in-children-from-different-socio-economic-backgrounds)). In the future, I hope to explore more in language acquisition, an area which combines my interests in language, motivation and development.
+At this stage of my career, I am studying the neural correlates of motivation-related behaviors. I have also started a computational linguistics project looking at the development of lexical-semantic networks in young children. In the future, I hope to explore more in language acquisition, an area which combines my interests in language, motivation and development.
 
-[go to bio.](/bio/)
+[TL;DR](/etc#tldr-word-clouds) / [go to bio.](/bio/)
