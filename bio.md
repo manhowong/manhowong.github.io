@@ -54,7 +54,7 @@ Picower is housed in the same building with other MIT's brain sciences departmen
 <div class="img-box-l">
     <a target="_blank" href="/img/rosh_hashanah.jpg">
         <img src="/img/rosh_hashanah.jpg">
-        <h6 class="caption">Celebrating Rosh Hashanah with housemates at Brown in multiple languages.</h6>
+        <h6 class="caption">Celebrating Rosh Hashanah 2020 in multiple languages with housemates at Brown.</h6>
     </a>
 </div>
  
@@ -63,7 +63,7 @@ In the fall of 2019, our lab got a chance to move to Brown University in Rhode I
 <div class="img-box-r">
     <a target="_blank" href="/img/pittsburgh.jpg">
         <img src="/img/pittsburgh.jpg">
-        <h6 class="caption">The correct spelling of "Pittsburgh".</h6>
+        <h6 class="caption">I'll send this picture to my friends if they miss the letter "h"... Taken in Mount Washington, Pittsburgh.</h6>
     </a>
 </div>
 

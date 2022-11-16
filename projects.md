@@ -19,10 +19,11 @@ order: 2
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   box-shadow: 10px 10px #DDD;
   width: 96%;
+  transition: 100ms;
   }
   div.card:hover {
   border: 1px solid rgba(0, 204, 92, 0.925);
-  transform: scale(1.03);
+  transform: scale(1.05);
   }
   *.card-title {
     margin-top: 8px;
