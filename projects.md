@@ -52,7 +52,7 @@ order: 2
 
   <div class="col">    
     <div class="card">
-      <img class="card-img-top">
+      <img class="card-img-top" src="/img/bot_structure.jpg">
       <div class="card-body">
         <h5 class="card-title">Software</h5>
         <p class="card-text">LLM-powered Slack Chatbot for question answering on documents with hierarchical LLM chains</p>
@@ -74,7 +74,7 @@ order: 2
 
   <div class="col">
     <div class="card">
-        <img class="card-img-top">
+        <img class="card-img-top" src="/img/toolbox.jpg">
         <div class="card-body">
             <h5 class="card-title">Research + Software</h5>
             <p class="card-text">Ephys Analysis Toolbox for processing and analyzing large datasets of EPSC signals</p>
@@ -107,17 +107,6 @@ order: 2
 
   <div class="col">
     <div class="card">
-        <img src="/img/manypeaks.svg" class="card-img-top">
-        <div class="card-body">
-            <h5 class="card-title">Software</h5>
-            <p class="card-text">Open-source tool for EPSC signal detection</p>
-            <a href="/projects/epsc-detection" class="stretched-link">Read more...</a>
-        </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card">
         <img src="/img/grpandplot_examples.png" class="card-img-top">
         <div class="card-body">
             <h5 class="card-title">Software</h5>
@@ -134,6 +123,17 @@ order: 2
             <h5 class="card-title">Software</h5>
             <p class="card-text">venn: A simple MATLAB function to draw Venn diagram of two to four sets with optional labels</p>
             <a href="https://github.com/manhowong/matlab-venn" class="stretched-link">Read more...</a>
+        </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+        <img src="/img/manypeaks.svg" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">Software</h5>
+            <p class="card-text">Open-source tool for EPSC signal detection</p>
+            <a href="/projects/epsc-detection" class="stretched-link">Read more...</a>
         </div>
     </div>
   </div>
