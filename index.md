@@ -13,8 +13,6 @@ invisible: true
 
 Man Ho Wong, 王文豪 (*he/him*) 
 
-I am a neuroscientist/ biophysicist currently working at the University of Pittsburgh, USA. I am fascinated by the capacity of human cognition. The emergence of such a complex system through rudimentary processes during development intrigues me the most. I am particularly interested in two cognitive functions: motivation and language.
-
-At this stage of my career, I am studying the neural correlates of motivation-related behaviors. I have also started a computational linguistics project looking at the development of lexical-semantic networks in young children. In the future, I hope to explore more in language acquisition, an area which combines my interests in language, motivation and development.
+Currently working as a neuroscientist at the University of Pittsburgh, I am fascinated by the complex interplay of reward-driven behaviors, experience, and language functions. With an engineering mindset, my interests have expanded to scientific computing and computational linguistics throughout my academic journey. My ultimate goal is to unify my passions and explore the realms of NLP and interactive AI, bridging the gaps between human cognition and artificial intelligence.
 
 [TL;DR](/etc#tldr-word-clouds) / [go to bio.](/bio/)

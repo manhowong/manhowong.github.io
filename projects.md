@@ -44,21 +44,22 @@ order: 2
       <img class="card-img-top" src="/img/eve_network_by_ecc.svg">
       <div class="card-body">
         <h5 class="card-title">Research</h5>
-        <p class="card-text">Lexical-semantic network growth in children from different socio-economic backgrounds</p>
+        <p class="card-text">Assessing lexical-semantic network growth in children from different socio-economic backgrounds with pre-trained language models</p>
         <a href="/projects/sem-network" class="stretched-link">Read more...</a>
       </div>
     </div>    
   </div>
 
-  <div class="col">
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">    
     <div class="card">
-        <img class="card-img-top">
-        <div class="card-body">
-            <h5 class="card-title">Research</h5>
-            <p class="card-text">Experience-dependent maturation of the reward circuitry</p>
-            <a href="/research/#experience-dependent-maturation-of-the-reward-circuitry" class="stretched-link">Read more...</a>
-        </div>
-    </div>
+      <img class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Software</h5>
+        <p class="card-text">LLM-powered Slack Chatbot for question answering on documents with hierarchical LLM chains</p>
+        <a href="https://github.com/manhowong/LLM-Chatbot-for-QA" class="stretched-link">Read more...</a>
+      </div>
+    </div>    
   </div>
 
   <div class="col">
@@ -74,11 +75,22 @@ order: 2
 
   <div class="col">
     <div class="card">
-        <img src="/img/manypeaks.svg" class="card-img-top">
+        <img class="card-img-top">
         <div class="card-body">
-            <h5 class="card-title">Software</h5>
-            <p class="card-text">Open-source tool for EPSC signal detection</p>
-            <a href="/projects/epsc-detection" class="stretched-link">Read more...</a>
+            <h5 class="card-title">Research + Software</h5>
+            <p class="card-text">Ephys Analysis Toolbox for processing and analyzing large datasets of EPSC signals</p>
+            <a href="/projects/epsc-pipeline" class="stretched-link">Read more...</a>
+        </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+        <img class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">Research</h5>
+            <p class="card-text">Experience-dependent maturation of the reward circuitry</p>
+            <a href="/research/#experience-dependent-maturation-of-the-reward-circuitry" class="stretched-link">Read more...</a>
         </div>
     </div>
   </div>
@@ -96,11 +108,11 @@ order: 2
 
   <div class="col">
     <div class="card">
-        <img class="card-img-top">
+        <img src="/img/manypeaks.svg" class="card-img-top">
         <div class="card-body">
-            <h5 class="card-title">Research + Software</h5>
-            <p class="card-text">EPSC data management and analysis pipeline for large datasets</p>
-            <a href="/projects/epsc-pipeline" class="stretched-link">Read more...</a>
+            <h5 class="card-title">Software</h5>
+            <p class="card-text">Open-source tool for EPSC signal detection</p>
+            <a href="/projects/epsc-detection" class="stretched-link">Read more...</a>
         </div>
     </div>
   </div>

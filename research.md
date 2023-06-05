@@ -5,21 +5,16 @@ permalink: /research/
 order: 1
 ---
 
-I am interested in the development of two cognitive functions: motivation and language. In the future, I hope to explore more into language acquisition, an area combining my interests in language, motivation and development. One of my long-term goals is to be able to promote social mobility through my work.
-
 Current research:  
 - [Lexical-semantic network growth in children from different socio-economic backgrounds](#lexical-semantic-network-growth-in-children-from-different-socio-economic-backgrounds)
 - [Experience-dependent maturation of the reward circuitry](#experience-dependent-maturation-of-the-reward-circuitry)
-- For other related projects, [see here](/projects). 
-
-Past research:  
-*Coming soon*
+- For other projects, [see here](/projects). 
 
 ## Lexical-semantic network growth in children from different socio-economic backgrounds
 
 [GitHub Repo](https://github.com/Data-Science-for-Linguists-2022/Child-Vocab-Development)
 
-A mother's educational background and socio-economic status (SES) have been shown to have significant influence on the child's early vocabulary development. For example, children coming from families of higher SES generally have larger vocabulary size than children from families of lower SES at the same age during early development. Although vocabulary size is a key indicator of early language development, vocabularies of children from different backgrounds may also differ in other dimensions, such as vocabulary diversity and structural complexity. However, most current studies on this topic focus on vocabulary size and we have very limited knowledge about how the socio-economic background affects vocabulary development in other dimensions. To fill the research gap, the main goal of this project is to characterize the vocabulary structure in children of different SES by analyzing the lexical-semantic network (a structure representing relations between words). Additionally, the lexical-semantic network of maternal child-directed speech (CDS) was also examined to look for correlations between the mother's and the child's vocabulary.
+A mother's educational background and socio-economic status (SES) have been shown to have a significant influence on the child's early vocabulary development. For example, children coming from families of higher SES generally have larger vocabulary sizes than children from families of lower SES at the same age during early development. Although vocabulary size is a key indicator of early language development, the vocabularies of children from different backgrounds may also differ in other dimensions, such as vocabulary diversity and structural complexity. However, most current studies on this topic focus on vocabulary size and we have very limited knowledge about how the socio-economic background affects vocabulary development in other dimensions. To fill the research gap, the main goal of this project is to characterize the vocabulary structure in children of different SES by analyzing the lexical-semantic network (a structure representing relations between words using pre-trained language models. Additionally, the lexical-semantic network of maternal child-directed speech (CDS) was also examined to look for correlations between the mother's and the child's vocabulary.
 
 The data used in this project contains more than 5.5 million words from 13 corpora in the Child Language Data Exchange System (CHILDES). An efficient pipeline was developed to clean and analyze large language datasets using Python. For quality control, mean length of utterance by morphemes (MLU-m), a common way to measure a child's linguistic productivity, was used as an indicator of data quality.
 

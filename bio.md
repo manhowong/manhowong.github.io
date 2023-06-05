@@ -35,9 +35,10 @@ order: 0
 I think a bio might be more interesting than a CV, but I will try to keep it short...
 
 **Undergraduate and doctoral training**  
-I have always been interested in life sciences, or simply life itself as I realized later. I am equally fascinated by language and perception. However, growing up in a low-income family, there were unfortunately other considerations (<a target="_blank" href="https://www.washingtonpost.com/business/2022/07/08/dept-of-data-academia-elite/">a serious problem in today's academia</a>) in life besides my passions. In the end, I chose to study applied biology and biotechnology in university, the more "practical" fields (in terms of job prospects) as I thought at the time which are still aligned with my interests.
 
-During the summer of my second year in university, I was really fortunate to get the opportunity to work on a developmental biology project at Caltech (which has the lowest percentage (2.9%) of students sharing my family background among the schools I ever studied/worked at; ironically, much worse than their male-to-female ratio). Not only did it present me the science of development, more importantly, it also let me see myself in academia as a first-generation university student. After undergraduate study, I finally decided to pursue my research passion and moved to Germany to study neuroscience.
+I've always had a keen interest in life sciences, or simply life itself as I realized later. Language and perception equally captivate me. However, growing up in a low-income family, there were, unfortunately, other considerations (<a target="_blank" href="https://www.washingtonpost.com/business/2022/07/08/dept-of-data-academia-elite/">a serious problem in today's academia</a>). Practicality took precedence over my passions. I opted to study applied biology and biotechnology in university, fields that seemed more "practical" in terms of job prospects, yet still aligned with my interests.
+
+During the summer of my second year in university, I was incredibly fortunate to get the opportunity to work on a developmental biology project at Caltech (which has the lowest percentage (2.9%) of students sharing my family background among the schools I ever studied/worked at; ironically, much worse than their male-to-female ratio). This experience not only exposed me to the science of development but more importantly, it also let me see myself in academia as a first-generation university student. After completing my undergraduate studies, I decided to pursue my research passion and moved to Germany to study neuroscience.
 
 <div class="img-box-r">
     <a target="_blank" href="https://www.wikiart.org/en/salvador-dali/the-persistence-of-memory-1931">
@@ -46,10 +47,10 @@ During the summer of my second year in university, I was really fortunate to get
     </a>
 </div>
 
-While I was studying the neural correlates of vision development in Germany, I came across Buddhism and immediately found myself drawn to their worldview, in particular their view on time perception. [Time perception](https://en.wikipedia.org/wiki/Time_perception) has a central role in human cognition, including decision making and motivation. To learn more about the neural circuitry governing motivation-guided behaviors, I started my postdoctoral research in my current lab which was hosted at the Picower Institute at MIT then.
+While investigating the neural correlates of vision development in Germany, I encountered Buddhism and immediately found myself drawn to their worldview, particularly their perspective on time perception. Time perception plays a central role in human cognition, influencing decision-making and motivation. To delve deeper into the neural circuitry underlying motivation-guided behaviors, I started my postdoctoral research in my current lab, which was hosted at the Picower Institute at MIT then.
 
 **Postdoctoral training and career transition**  
-Picower is housed in the same building with other MIT's brain sciences departments, including labs working on the cognitive branch of linguistics. Building 46 (as it is affectionately called) is the place where I was first introduced to linguistics research and where I saw the possibility to combine my interests in different fields. During my time there, I went to talks and seminars in psycho- and cognitive linguistics as far as my schedule allowed, although at the time I had only a very basic knowledge of linguistics. Nevertheless, the exciting linguistics works happening in Building 46 opened a whole new world for me.
+Picower shares a building with various brain sciences departments at MIT, including labs dedicated to cognitive linguistics. Building 46, as it is affectionately called, was where I initially discovered the world of linguistic research and realized the potential of blending my diverse interests. While my understanding of linguistics was limited at the time, I attended talks and seminars on psycho- and cognitive linguistics whenever my schedule allowed. Nevertheless, the exciting linguistics work happening in Building 46 opened a whole new world for me.
 
 <div class="img-box-l">
     <a target="_blank" href="/img/rosh_hashanah.jpg">
@@ -57,8 +58,8 @@ Picower is housed in the same building with other MIT's brain sciences departmen
         <h6 class="caption">Celebrating Rosh Hashanah 2020 in multiple languages with housemates at Brown.</h6>
     </a>
 </div>
- 
-In the fall of 2019, our lab got a chance to move to Brown University in Rhode Island. Although moving would delay my postdoctoral research, I still decided to move to Brown with my lab and took it as an opportunity for broader exposure to different cognitive science and linguistics fields before I am ready to find my own research niche. Brown is the birthplace of the [Brown Corpus](https://en.wikipedia.org/wiki/Brown_Corpus), which played a pivotal role in the development of corpus linguistics and computational linguistics. Continuing my (self-directed) learning of linguistics at Brown, I started to appreciate the importance of computational methods in linguistics.
+
+In the fall of 2019, our lab had a chance to relocate to Brown University in Rhode Island. Despite the delay it would cause in my postdoctoral research, I saw it as a valuable opportunity to immerse myself in diverse cognitive science and linguistics fields, expanding my knowledge before establishing my own research niche. Brown University holds a special place in linguistic history as the birthplace of the influential [Brown Corpus](https://en.wikipedia.org/wiki/Brown_Corpus), which greatly contributed to the advancement of computational linguistics. As I continued my self-directed linguistic studies at Brown, I began to appreciate the importance of computational methods in the field.
 
 <div class="img-box-r">
     <a target="_blank" href="/img/pittsburgh.jpg">
@@ -67,11 +68,9 @@ In the fall of 2019, our lab got a chance to move to Brown University in Rhode I
     </a>
 </div>
 
-During my last year of postdoctoral training, the lab relocated to the University of Pittsburgh in summer 2021. I feel so fortunate to have met a few professors and mentors in the linguistics department at Pitt who saw my enthusiasm in language sciences and guided me through my exploration into linguistics. To develop a more systematic understanding of natural language and cognition, I started taking classes in phonology, the study of the sound system that connects our mental life and the physical world. At the same time, I joined the Pitt Python Linguistics Group (PyLing), a local community of linguists from Pitt and also CMU, to learn more about computational methods in linguistics. I also started my very first (and hopefully not too primitive) computational linguistics project to put my knowledge into practice. Pitt is the place where I launched my career transition into the intersection of linguistics and neuroscience.
+In my final year of postdoctoral training, our lab moved to the University of Pittsburgh in the summer of 2021. It was an incredible stroke of luck that I crossed paths with some amazing professors and mentors in the linguistics department at Pitt, who who saw my enthusiasm for language sciences and kindly guided me through my exploration into language. To deepen my understanding of natural language and cognition, I enrolled in phonology classes, which explore the fascinating connection between the sounds we perceive and the world around us. Additionally, I joined the Pitt Python Linguistics Group (PyLing), a local community of linguists from both PPP and CMU, to delve into computational methods in linguistics. Excitingly, I also started my very first computational linguistics project. Pitt was the launching pad for my career transition into the realm where computational linguistics and cognition intersect.
 
---
-
-I think I should stop here as it's getting too long for an internet post about a random person. If you are interested in learning more about me, I am very honoured and am happy to provide my CV (<a href="mailto:{{ site.email }}">email</a>). I would also like to invite you to connect with me on [LinkedIn](https://www.linkedin.com/in/manhowong).
+I should probably wrap it up here, as this post is getting quite long for a random internet blurb about someone. If you'd like to know more about me, I'd be honored to share my resume (<a href="mailto:{{ site.email }}">email</a>) with you. I would also like to invite you to connect with me on [LinkedIn](https://www.linkedin.com/in/manhowong).
 
 November 2022  
 Pittsburgh, PA, USA
