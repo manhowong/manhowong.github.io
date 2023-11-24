@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Bio,
+title: bio,
 permalink: /bio/
-order: 0
+order: 2
+invisible: true
 ---
 
 <style>
@@ -32,7 +33,9 @@ order: 0
     }
 </style>
 
-I think a bio might be more interesting than a CV, but I will try to keep it short...
+I think a bio might be more interesting than a CV, but I will try to keep it short... That said, I am also happy to share my CV with you (<a href="mailto:{{ site.email }}">email</a>). Otherwise, feel free to check out my [LinkedIn](https://www.linkedin.com/in/manhowong) profile.
+
+<br>
 
 **Undergraduate and doctoral training**  
 
@@ -70,7 +73,7 @@ In the fall of 2019, our lab had a chance to relocate to Brown University in Rho
 
 In my final year of postdoctoral training, our lab moved to the University of Pittsburgh in the summer of 2021. It was an incredible stroke of luck that I crossed paths with some amazing professors and mentors in the linguistics department at Pitt, who who saw my enthusiasm for language sciences and kindly guided me through my exploration into language. To deepen my understanding of natural language and cognition, I enrolled in phonology classes, which explore the fascinating connection between the sounds we perceive and the world around us. Additionally, I joined the Pitt Python Linguistics Group (PyLing), a local community of linguists from both PPP and CMU, to delve into computational methods in linguistics. Excitingly, I also started my very first computational linguistics project. Pitt was the launching pad for my career transition into the realm where computational linguistics and cognition intersect.
 
-I should probably wrap it up here, as this post is getting quite long for a random internet blurb about someone. If you'd like to know more about me, I'd be honored to share my resume (<a href="mailto:{{ site.email }}">email</a>) with you. I would also like to invite you to connect with me on [LinkedIn](https://www.linkedin.com/in/manhowong).
+I should probably wrap it up here as this post is getting too long... If you are still interested in my research and career transition, feel free to reach out to me (<a href="mailto:{{ site.email }}">email</a>)!
 
 November 2022  
 Pittsburgh, PA, USA

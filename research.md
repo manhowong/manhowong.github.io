@@ -2,7 +2,7 @@
 layout: page
 title: research,
 permalink: /research/
-order: 1
+invisible: true
 ---
 
 Current research:  

@@ -2,7 +2,7 @@
 layout: page
 title: projects,
 permalink: /projects/
-order: 2
+order: 1
 ---
 
 <html>

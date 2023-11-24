@@ -7,12 +7,12 @@ invisible: true
 
 ## Author
 
-This website was created by Man Ho Wong. If you have any questions, please feel free to contact the author at:  
+This website was created and maintained by Man Ho Wong:  
 <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 
 ## Code
 
-This website was built with <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> and is hosted on <a target="_blank" href="https://github.com/manhowong/manhowong.github.io">GitHub</a>. The website theme was derived from <a target="_blank" href="https://github.com/gaalcaras/academic">Academic 0.5.4</a>. The JavaScript animation in the footer was derived from a <a target="_blank" href="https://codepen.io/mitsuya_bauhaus/pen/MWwdRxR">code snippet</a> by Mitsuya Bauhaus.
+This website was built with <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> and is hosted on <a target="_blank" href="https://github.com/manhowong/manhowong.github.io">GitHub</a>. The website theme was derived from <a target="_blank" href="https://github.com/gaalcaras/academic">Academic 0.5.4</a>. The animation in the background of the homepage was created using the JavaScript library <a target="_blank" href="https://github.com/VincentGarreau/particles.js/">Particles.js</a>.
 
 ## Licenses
 

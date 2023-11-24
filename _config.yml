@@ -20,10 +20,10 @@
 
 title: Man Ho Wong   # site and also browser title
 # title_html: "<b>Man Ho Wong</b>"  # bold site title in site banner
-email: m.wong@pitt.edu
+email: mhwong@gatech.edu
 author_website: https://manhowong.github.io/
 description: >- # this means to ignore newlines until "baseurl:"
-  Neuroscientist exploring reward-driven behaviors, experience, and language, with an engineering mindset and interests in NLP and interactive AI.
+  Neuroscientist and current part-time graduate student in Computer Science at Georgia Tech.
 repo: https://github.com/manhowong/manhowong.github.io
 cc: by-nc-sa
 
