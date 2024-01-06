@@ -43,7 +43,7 @@ order: 1
     <div class="card">
       <img class="card-img-top" src="/img/eve_network_by_ecc.svg">
       <div class="card-body">
-        <h5 class="card-title">Research</h5>
+        <h5 class="card-title">Data Science / NLP</h5>
         <p class="card-text">Assessing lexical-semantic network growth in children from different socio-economic backgrounds with pre-trained language models</p>
         <a href="/projects/sem-network" class="stretched-link">Read more...</a>
       </div>
@@ -54,7 +54,7 @@ order: 1
     <div class="card">
       <img class="card-img-top" src="/img/bot_structure.jpg">
       <div class="card-body">
-        <h5 class="card-title">Software</h5>
+        <h5 class="card-title">NLP</h5>
         <p class="card-text">LLM-powered Slack Chatbot for question answering on documents with hierarchical LLM chains</p>
         <a href="https://github.com/manhowong/LLM-Chatbot-for-QA" class="stretched-link">Read more...</a>
       </div>
@@ -65,7 +65,7 @@ order: 1
     <div class="card">
       <img src="/img/nsfa_fit.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Research + Software</h5>
+        <h5 class="card-title">Neuroscience</h5>
         <p class="card-text">EPSC kinetics analysis</p>
         <a href="/projects/kinetics" class="stretched-link">Read more...</a>
       </div>
@@ -76,7 +76,7 @@ order: 1
     <div class="card">
         <img class="card-img-top" src="/img/toolbox.jpg">
         <div class="card-body">
-            <h5 class="card-title">Research + Software</h5>
+            <h5 class="card-title">Neuroscience / Software</h5>
             <p class="card-text">Ephys Analysis Toolbox for processing and analyzing large datasets of EPSC signals</p>
             <a href="/projects/epsc-pipeline" class="stretched-link">Read more...</a>
         </div>
@@ -87,7 +87,7 @@ order: 1
     <div class="card">
         <img class="card-img-top">
         <div class="card-body">
-            <h5 class="card-title">Research</h5>
+            <h5 class="card-title">Neuroscience</h5>
             <p class="card-text">Experience-dependent maturation of the reward circuitry</p>
             <a href="/research/#experience-dependent-maturation-of-the-reward-circuitry" class="stretched-link">Read more...</a>
         </div>
@@ -96,11 +96,11 @@ order: 1
 
   <div class="col">
     <div class="card">
-        <img src="/img/concAndSavePanel.png" class="card-img-top">
+        <img src="/img/alzheimers-model.svg" class="card-img-top">
         <div class="card-body">
-            <h5 class="card-title">Software</h5>
-            <p class="card-text">Igor Pro Tools for Electrophysiological Data</p>
-            <a href="https://github.com/manhowong/igor-pro-tools" class="stretched-link">Read more...</a>
+            <h5 class="card-title">Neuroscience / Data Science</h5>
+            <p class="card-text">Detection of Alzheimer's Disease with Neuroimaging Data Using a Shallow 2D-CNN Architecture</p>
+            <a href="https://github.com/manhowong/alzheimers-model" class="stretched-link">Read more...</a>
         </div>
     </div>
   </div>
@@ -109,7 +109,7 @@ order: 1
     <div class="card">
         <img src="/img/grpandplot_examples.png" class="card-img-top">
         <div class="card-body">
-            <h5 class="card-title">Software</h5>
+            <h5 class="card-title">Data Science / Software</h5>
             <p class="card-text">grpandplot: An open-source MATLAB tool for drawing box plot and violin plot with automatic multi-way data grouping</p>
             <a href="https://github.com/manhowong/grpandplot" class="stretched-link">Read more...</a>
         </div>
@@ -120,7 +120,7 @@ order: 1
     <div class="card">
         <img src="/img/examples.png" class="card-img-top">
         <div class="card-body">
-            <h5 class="card-title">Software</h5>
+            <h5 class="card-title">Data Science / Software</h5>
             <p class="card-text">venn: A simple MATLAB function to draw Venn diagram of two to four sets with optional labels</p>
             <a href="https://github.com/manhowong/matlab-venn" class="stretched-link">Read more...</a>
         </div>
@@ -131,7 +131,7 @@ order: 1
     <div class="card">
         <img src="/img/manypeaks.svg" class="card-img-top">
         <div class="card-body">
-            <h5 class="card-title">Software</h5>
+            <h5 class="card-title">Neuroscience / Software</h5>
             <p class="card-text">Open-source tool for EPSC signal detection</p>
             <a href="/projects/epsc-detection" class="stretched-link">Read more...</a>
         </div>
@@ -142,9 +142,20 @@ order: 1
     <div class="card">
         <img class="card-img-top">
         <div class="card-body">
-            <h5 class="card-title">Research</h5>
+            <h5 class="card-title">Neuroscience</h5>
             <p class="card-text">Circuit refinement in mouse visual cortex during development</p>
             <a href="/projects/idle_synapse" class="stretched-link">Read more...</a>
+        </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card">
+        <img src="/img/concAndSavePanel.png" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">Neuroscience / Software</h5>
+            <p class="card-text">Igor Pro Tools for Electrophysiological Data</p>
+            <a href="https://github.com/manhowong/igor-pro-tools" class="stretched-link">Read more...</a>
         </div>
     </div>
   </div>
