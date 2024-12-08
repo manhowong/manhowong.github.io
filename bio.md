@@ -35,11 +35,14 @@ invisible: true
 
 I think a bio might be more interesting than a CV, but I will try to keep it short... That said, I am also happy to share my CV with you (<a href="mailto:{{ site.email }}">email</a>). Otherwise, feel free to check out my [LinkedIn](https://www.linkedin.com/in/manhowong) profile.
 
+November 2022  
+Pittsburgh, PA, USA
+
 <br>
 
 **Undergraduate and doctoral training**  
 
-I've always had a keen interest in life sciences, or simply life itself as I realized later. Language and perception equally captivate me. However, growing up in a low-income family, there were, unfortunately, other considerations (<a target="_blank" href="https://www.washingtonpost.com/business/2022/07/08/dept-of-data-academia-elite/">a serious problem in today's academia</a>). Practicality took precedence over my passions. I opted to study applied biology and biotechnology in university, fields that seemed more "practical" in terms of job prospects, yet still aligned with my interests.
+I've always had a keen interest in life sciences, or simply, life itself as I realized later. Language and perception equally captivate me. However, growing up in a low-income family, there were, unfortunately, other considerations (<a target="_blank" href="https://www.washingtonpost.com/business/2022/07/08/dept-of-data-academia-elite/">a serious problem in today's academia</a>). Practicality took precedence over my passions. I opted to study applied biology and biotechnology in university, fields that seemed more "practical" in terms of job prospects, yet still aligned with my interests.
 
 During the summer of my second year in university, I was incredibly fortunate to get the opportunity to work on a developmental biology project at Caltech (which has the lowest percentage (2.9%) of students sharing my family background among the schools I ever studied/worked at; ironically, much worse than their male-to-female ratio). This experience not only exposed me to the science of development but more importantly, it also let me see myself in academia as a first-generation university student. After completing my undergraduate studies, I decided to pursue my research passion and moved to Germany to study neuroscience.
 
@@ -53,7 +56,7 @@ During the summer of my second year in university, I was incredibly fortunate to
 While investigating the neural correlates of vision development in Germany, I encountered Buddhism and immediately found myself drawn to their worldview, particularly their perspective on time perception. Time perception plays a central role in human cognition, influencing decision-making and motivation. To delve deeper into the neural circuitry underlying motivation-guided behaviors, I started my postdoctoral research in my current lab, which was hosted at the Picower Institute at MIT then.
 
 **Postdoctoral training and career transition**  
-Picower shares a building with various brain sciences departments at MIT, including labs dedicated to cognitive linguistics. Building 46, as it is affectionately called, was where I initially discovered the world of linguistic research and realized the potential of blending my diverse interests. While my understanding of linguistics was limited at the time, I attended talks and seminars on psycho- and cognitive linguistics whenever my schedule allowed. Nevertheless, the exciting linguistics work happening in Building 46 opened a whole new world for me.
+Picower shares a building with various brain sciences departments at MIT, including labs dedicated to cognitive linguistics. Building 46... as it is affectionately called, was where I initially discovered the world of linguistic research and realized the potential of blending my diverse interests. While my understanding of linguistics was limited at the time, I attended talks and seminars on psycho- and cognitive linguistics whenever my schedule allowed. Nevertheless, the exciting linguistics work happening in Building 46 opened a whole new world for me.
 
 <div class="img-box-l">
     <a target="_blank" href="/img/rosh_hashanah.jpg">
@@ -71,9 +74,6 @@ In the fall of 2019, our lab had a chance to relocate to Brown University in Rho
     </a>
 </div>
 
-In my final year of postdoctoral training, our lab moved to the University of Pittsburgh in the summer of 2021. It was an incredible stroke of luck that I crossed paths with some amazing professors and mentors in the linguistics department at Pitt, who who saw my enthusiasm for language sciences and kindly guided me through my exploration into language. To deepen my understanding of natural language and cognition, I enrolled in phonology classes, which explore the fascinating connection between the sounds we perceive and the world around us. Additionally, I joined the Pitt Python Linguistics Group (PyLing), a local community of linguists from both PPP and CMU, to delve into computational methods in linguistics. Excitingly, I also started my very first computational linguistics project. Pitt was the launching pad for my career transition into the realm where computational linguistics and cognition intersect.
+In my final year of postdoctoral training, our lab moved to the University of Pittsburgh in the summer of 2021. I was incredibly lucky to cross paths with some amazing professors and mentors in the linguistics department at Pitt, who saw my enthusiasm for language sciences and kindly guided me through my exploration of language. To deepen my understanding of natural language and cognition, I enrolled in phonology and phonetics classes, which explore the fascinating connection between the sounds we perceive and the world around us; Additionally, I joined the Pitt Python Linguistics Group (PyLing, a local community of linguists and NLP enthusiasts), to learn more about the latest trends in NLP; I also started my very first NLP project. Pitt was the launching pad for my career transition.
 
-I should probably wrap it up here as this post is getting too long... If you are still interested in my research and career transition, feel free to reach out to me (<a href="mailto:{{ site.email }}">email</a>)!
-
-November 2022  
-Pittsburgh, PA, USA
+I should probably wrap it up here as this post is getting too long... If you are still interested in my work and career transition, feel free to reach out to me (<a href="mailto:{{ site.email }}">email</a>)!
