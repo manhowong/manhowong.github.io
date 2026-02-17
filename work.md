@@ -47,7 +47,7 @@ order: 1
         </div>
     </div>
   </div>
-</div>
+
 <p></p>
 
 </body>

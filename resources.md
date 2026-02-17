@@ -5,6 +5,7 @@ permalink: /resources/
 order: 2
 ---
 
+<p></p>
 
 **Transformer tutorial**: [A Plain Walkthrough of Transformer Models](https://manhowong.github.io/transformer-walkthrough/) (live manuscript)
 
