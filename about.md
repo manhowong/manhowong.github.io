@@ -10,7 +10,7 @@ order: 0
 
 <style>
   main, article, .post-content { 
-    font-size: 1rem !important; 
+    font-size: 0.8rem !important; 
   }
 </style>
 
