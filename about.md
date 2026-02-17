@@ -10,7 +10,7 @@ order: 0
 
 <style>
   main, article, .post-content { 
-    font-size: 0.8rem !important; 
+    font-size: 1rem !important; 
   }
 </style>
 
@@ -20,28 +20,34 @@ order: 0
 
 Man Ho Wong, 王文豪 (*he/him*) 
 
- **EDUCATION**
+#### EDUCATION
 
-- MS Computer Science, Georgia Institute of Technology
-- PhD Neurosciences, IMPRS + University of Göttingen
-- BSc Applied Biology with Biotechnology, Hong Kong Polytechnic University
+- **MS Computer Science**,  
+  Georgia Institute of Technology
+- **PhD Neurosciences**,  
+  IMPRS + University of Göttingen
+- **BSc Applied Biology with Biotechnology**,  
+  Hong Kong Polytechnic University
 
-**EXPERIENCE**
+#### EXPERIENCE
 
-- AI Research Engineer / Data Scientist, Faculty Science
-- Data Scientist, World Disaster Center
-- Postdoctoral Researcher
+- **AI Research Engineer / Data Scientist**,  
+  Faculty Science
+- **Data Scientist**,  
+  World Disaster Center
+- **Postdoctoral Researcher**
     - University of Pittsburgh
     - Brown University
     - MIT 
-- Summer Undergraduate Research Fellow, Caltech
+- **Summer Undergraduate Research Fellow**,  
+  Caltech
 
-**PROFESSIONAL SERVICES**
+#### PROFESSIONAL SERVICES
 
 - MIT Science Policy Initiative
 - MIT Postdoctoral Association
 
-**AWARDS AND GRANTS**
+#### AWARDS AND GRANTS
 
 Faculty Fellowship, Picower Fellowship, Croucher Scholarship, Max Planck Society Stipend, Caltech SURF
 
