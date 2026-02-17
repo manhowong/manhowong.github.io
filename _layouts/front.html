@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.langs[0] | default: "en" }}">
+
+  {% include head.html %}
+
+  <style>
+
+    /* set wrapper to the center of the page */
+    #front-page-wrapper {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 65%;
+    }
+
+    #home-footer {
+      position: absolute;
+      bottom: 3%;
+      left: 50%;
+      transform: translate(-50%, 0%);
+      color: black;
+      text-align: center;
+    }
+
+    /* set back-animation background color to transparent */
+    #back-animation {
+      background-color: transparent;
+    }
+
+  </style>
+
+  <body>
+
+    <main class="post-content" aria-label="Content" id="back-animation">
+
+        <div class="wrapper" id="front-page-wrapper">
+            {{ content }}
+        </div>
+
+      <div id="home-footer">
+
+          {% include _icons/github.html username=site.github_username %} <br>
+          {% include _icons/linkedin.html username=site.linkedin_username %} <br>
+          <a href="/imprint">Imprint</a> / <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>
+      </div>
+
+    </main>
+
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- use relative protocol caller '//' instead of 'http://' to avoid error "Blocked loading mixed active content"-->
+
+    <script>
+        particlesJS("back-animation",
+        {
+        "particles":{
+        "number":{"value":80,"density":{"enable":true,"value_area":800}},
+        "color":{"value":"#333333"},
+        "shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},
+        "opacity":{"value":0.7,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},
+        "size":{"value":3.945738208161363,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},
+        "line_linked":{"enable":true,"distance":150,"color":"#333333","opacity":0.7,"width":1},
+        "move":{"enable":true,"speed":4,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}
+        },
+        "interactivity":{
+        "detect_on":"canvas",
+        "events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},
+        "modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}
+        },
+        "retina_detect":true
+        });
+    </script>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.langs[0] | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    {% if page.layout == "post" %}
+    <main class="post-content" aria-label="Content">
+    {% else %}
+    <main class="page-content" aria-label="Content">
+    {% endif %}
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+    <!-- scroll to top button -->
+    <button id="topBtn" onclick="topFunction()" title="Back to top">Top</button>
+    <script>
+      let btn = document.getElementById("topBtn");
+      // show button when scroll more than 50px
+      window.onscroll = function() {showBtn()};
+      function showBtn() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          btn.style.display = "block";
+        } else {
+          btn.style.display = "none";
+        }
+      }
+      // scroll to top
+      function topFunction() {document.body.scrollTop=0; document.documentElement.scrollTop=0;}
+    </script>
+
+  </body>
+
+</html>

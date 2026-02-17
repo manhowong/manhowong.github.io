@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="200">
+<style>@font-face{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;src:url("data:application/font-woff;charset=utf-8;base64,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")format("woff");}</style>
+<style>text{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;}</style>
+<rect width="100%" height="100%" style="fill:black"></rect>
+<text transform="translate(349,157)" font-size="50" style="fill:rgb(8, 77, 150)">development</text>
+<text transform="translate(134,88)" font-size="44" style="fill:rgb(113, 177, 215)">study</text>
+<text transform="translate(469,72)" font-size="41" style="fill:rgb(8, 56, 119)">linguistics</text>
+<text transform="translate(430,103)" font-size="41" style="fill:rgb(105, 173, 213)">data</text>
+<text transform="translate(244,31)" font-size="41" style="fill:rgb(68, 147, 199)">synapse</text>
+<text transform="translate(10,165)" font-size="39" style="fill:rgb(8, 52, 113)">project</text>
+<text transform="translate(26,32)" font-size="38" style="fill:rgb(179, 211, 232)">language</text>
+<text transform="translate(193,181)" font-size="38" style="fill:rgb(13, 87, 161)">signal</text>
+<text transform="translate(102,128)" font-size="37" style="fill:rgb(227, 238, 249)">detection</text>
+<text transform="translate(427,33)" font-size="35" style="fill:rgb(8, 56, 119)">research</text>
+<text transform="translate(10,84)" font-size="35" style="fill:rgb(195, 218, 238)">mepsc</text>
+<text transform="translate(567,99)" font-size="34" style="fill:rgb(229, 239, 249)">cognition</text>
+<text transform="translate(644,184)" font-size="33" style="fill:rgb(18, 93, 166)">time</text>
+<text transform="translate(596,26)" font-size="33" style="fill:rgb(70, 149, 200)">differ</text>
+<text transform="translate(270,84)" font-size="33" style="fill:rgb(199, 220, 239)">analysis</text>
+<text transform="translate(24,124)" font-size="32" style="fill:rgb(210, 227, 243)">work</text>
+<text transform="translate(413,175)" font-size="32" style="fill:rgb(22, 99, 170)">epsc</text>
+<text transform="translate(563,191)" font-size="32" style="fill:rgb(129, 186, 219)">tool</text>
+<text transform="translate(299,108)" font-size="21" style="fill:rgb(8, 80, 155)">vocabulary</text>
+<text transform="translate(743,198) rotate(-90)" font-size="20" style="fill:rgb(226, 237, 248)">interest</text>
+<text transform="translate(69,191)" font-size="20" style="fill:rgb(223, 235, 247)">function</text>
+<text transform="translate(675,152)" font-size="20" style="fill:rgb(207, 225, 242)">life</text>
+<text transform="translate(348,179)" font-size="20" style="fill:rgb(78, 154, 203)">word</text>
+<text transform="translate(519,113)" font-size="19" style="fill:rgb(23, 100, 171)">process</text>
+<text transform="translate(373,49)" font-size="19" style="fill:rgb(185, 214, 234)">opening</text>
+<text transform="translate(172,142)" font-size="18" style="fill:rgb(241, 247, 253)">connectivity</text>
+<text transform="translate(18,55)" font-size="17" style="fill:rgb(117, 180, 216)">pipeline</text>
+<text transform="translate(244,59)" font-size="17" style="fill:rgb(8, 80, 155)">silent</text>
+<text transform="translate(449,192)" font-size="16" style="fill:rgb(231, 241, 250)">frequency</text>
+<text transform="translate(349,192)" font-size="15" style="fill:rgb(51, 131, 190)">circuitry</text>
+<text transform="translate(314,136)" font-size="15" style="fill:rgb(190, 216, 236)">site</text>
+<text transform="translate(429,115)" font-size="15" style="fill:rgb(8, 75, 147)">circuit</text>
+<text transform="translate(634,115)" font-size="15" style="fill:rgb(81, 156, 204)">refinement</text>
+<text transform="translate(19,136)" font-size="15" style="fill:rgb(231, 240, 250)">change</text>
+<text transform="translate(112,53)" font-size="15" style="fill:rgb(78, 154, 203)">transmission</text>
+<text transform="translate(265,192)" font-size="14" style="fill:rgb(199, 220, 239)">university</text>
+<text transform="translate(651,37)" font-size="14" style="fill:rgb(45, 125, 187)">motivation</text>
+<text transform="translate(302,120)" font-size="14" style="fill:rgb(171, 208, 230)">behavior</text>
+<text transform="translate(291,43)" font-size="14" style="fill:rgb(26, 104, 174)">read</text>
+<text transform="translate(394,126)" font-size="14" style="fill:rgb(238, 245, 252)">field</text>
+<text transform="translate(244,154)" font-size="14" style="fill:rgb(73, 151, 201)">role</text>
+<text transform="translate(563,44)" font-size="14" style="fill:rgb(63, 143, 197)">lab</text>
+<text transform="translate(488,176)" font-size="14" style="fill:rgb(223, 236, 247)">cloud</text>
+<text transform="translate(529,122)" font-size="12" style="fill:rgb(240, 246, 253)">probability</text>
+<text transform="translate(141,97)" font-size="12" style="fill:rgb(42, 122, 185)">maturation</text>
+<text transform="translate(640,195)" font-size="12" style="fill:rgb(23, 100, 171)">homeostasis</text>
+<text transform="translate(743,36) rotate(-90)" font-size="12" style="fill:rgb(92, 164, 208)">child</text>
+<text transform="translate(105,134)" font-size="11" style="fill:rgb(234, 242, 251)">career</text>
+<text transform="translate(665,123)" font-size="11" style="fill:rgb(166, 206, 228)">look</text>
+<text transform="translate(3,193)" font-size="11" style="fill:rgb(121, 181, 217)">network</text>
+<text transform="translate(467,143)" font-size="11" style="fill:rgb(208, 225, 242)">“</text>
+<text transform="translate(607,169)" font-size="11" style="fill:rgb(15, 90, 163)">”</text>
+<text transform="translate(500,8)" font-size="10" style="fill:rgb(47, 127, 188)">neuroscience</text>
+<text transform="translate(512,43)" font-size="10" style="fill:rgb(25, 103, 173)">learning</text>
+<text transform="translate(617,39)" font-size="10" style="fill:rgb(169, 207, 229)">brown</text>
+<text transform="translate(20,174)" font-size="10" style="fill:rgb(55, 135, 192)">datasets</text>
+<text transform="translate(174,193)" font-size="10" style="fill:rgb(145, 195, 222)">efficient</text>
+<text transform="translate(79,93)" font-size="10" style="fill:rgb(8, 70, 139)">amplitude</text>
+<text transform="translate(310,54)" font-size="10" style="fill:rgb(15, 90, 163)">miniature</text>
+<text transform="translate(171,149)" font-size="10" style="fill:rgb(49, 129, 189)">suggests</text>
+<text transform="translate(213,38)" font-size="10" style="fill:rgb(171, 208, 230)">involves</text>
+<text transform="translate(386,91)" font-size="10" style="fill:rgb(220, 234, 246)">release</text>
+<text transform="translate(17,99)" font-size="10" style="fill:rgb(165, 205, 227)">addition</text>
+<text transform="translate(536,92)" font-size="10" style="fill:rgb(77, 153, 202)">decay</text>
+<text transform="translate(141,172)" font-size="10" style="fill:rgb(68, 147, 199)">stress</text>
+<text transform="translate(699,125)" font-size="10" style="fill:rgb(33, 113, 181)">nac</text>
+<text transform="translate(424,8)" font-size="9" style="fill:rgb(247, 251, 255)">pittsburgh</text>
+<text transform="translate(611,123)" font-size="9" style="fill:rgb(216, 231, 245)">correlate</text>
+<text transform="translate(257,99)" font-size="9" style="fill:rgb(157, 202, 225)">training</text>
+<text transform="translate(542,164)" font-size="9" style="fill:rgb(241, 247, 253)">transition</text>
+<text transform="translate(692,44)" font-size="9" style="fill:rgb(140, 192, 221)">possibility</text>
+<text transform="translate(208,14)" font-size="9" style="fill:rgb(214, 230, 244)">pitt</text>
+<text transform="translate(679,160)" font-size="9" style="fill:rgb(216, 231, 245)">community</text>
+<text transform="translate(436,124)" font-size="9" style="fill:rgb(8, 72, 142)">provide</text>
+<text transform="translate(10,43) rotate(-90)" font-size="9" style="fill:rgb(109, 175, 215)">contains</text>
+<text transform="translate(326,147)" font-size="9" style="fill:rgb(238, 245, 252)">code</text>
+<text transform="translate(428,66)" font-size="9" style="fill:rgb(141, 193, 221)">approach</text>
+<text transform="translate(118,39)" font-size="9" style="fill:rgb(8, 53, 115)">recording</text>
+<text transform="translate(97,61)" font-size="9" style="fill:rgb(8, 51, 112)">model</text>
+<text transform="translate(208,25)" font-size="9" style="fill:rgb(178, 210, 232)">fitting</text>
+<text transform="translate(528,177)" font-size="9" style="fill:rgb(32, 111, 180)">analyze</text>
+<text transform="translate(12,140) rotate(-90)" font-size="9" style="fill:rgb(97, 167, 210)">property</text>
+<text transform="translate(178,60)" font-size="9" style="fill:rgb(72, 150, 200)">share</text>
+<text transform="translate(345,61)" font-size="8" style="fill:rgb(189, 215, 236)">plasticity</text>
+<text transform="translate(17,37) rotate(-90)" font-size="8" style="fill:rgb(117, 180, 216)">ampars</text>
+<text transform="translate(492,67) rotate(-90)" font-size="8" style="fill:rgb(243, 248, 254)">period</text>
+<text transform="translate(8,185) rotate(-90)" font-size="8" style="fill:rgb(220, 234, 246)">mechanism</text>
+<text transform="translate(29,181)" font-size="8" style="fill:rgb(60, 140, 195)">number</text>
+<text transform="translate(301,89)" font-size="8" style="fill:rgb(189, 215, 236)">ampar+</text>
+<text transform="translate(49,7)" font-size="7" style="fill:rgb(207, 225, 242)">desensitization</text>
+<text transform="translate(542,98)" font-size="7" style="fill:rgb(8, 61, 127)">ion</text>
+<text transform="translate(619,67) rotate(-90)" font-size="7" style="fill:rgb(14, 88, 162)">channel</text>
+<text transform="translate(497,140) rotate(-90)" font-size="7" style="fill:rgb(58, 138, 194)">adulthood</text>
+<text transform="translate(364,163)" font-size="7" style="fill:rgb(62, 142, 196)">reward</text>
+<text transform="translate(541,191)" font-size="6" style="fill:rgb(212, 228, 244)">system</text>
+<text transform="translate(53,61)" font-size="6" style="fill:rgb(245, 250, 254)">future</text>
+<text transform="translate(48,37)" font-size="6" style="fill:rgb(170, 207, 229)">exploration</text>
+<text transform="translate(131,6)" font-size="6" style="fill:rgb(170, 207, 229)">acquisition</text>
+<text transform="translate(707,16)" font-size="6" style="fill:rgb(191, 216, 237)">area</text>
+<text transform="translate(171,156)" font-size="6" style="fill:rgb(185, 214, 234)">science</text>
+</svg>
