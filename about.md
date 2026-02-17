@@ -22,30 +22,35 @@ Man Ho Wong, 王文豪 (*he/him*)
 
 #### EDUCATION
 
-- **MS Computer Science**,  
-  Georgia Institute of Technology
-- **PhD Neurosciences**,  
-  IMPRS + University of Göttingen
-- **BSc Applied Biology with Biotechnology**,  
-  Hong Kong Polytechnic University
+**MS Computer Science**  
+Georgia Institute of Technology
+
+**PhD Neurosciences**  
+IMPRS + University of Göttingen
+
+**BSc Applied Biology with Biotechnology**  
+Hong Kong Polytechnic University
 
 #### EXPERIENCE
 
-- **AI Research Engineer / Data Scientist**,  
-  Faculty Science
-- **Data Scientist**,  
-  World Disaster Center
-- **Postdoctoral Researcher**
-    - University of Pittsburgh
-    - Brown University
-    - MIT 
-- **Summer Undergraduate Research Fellow**,  
-  Caltech
+**AI Research Engineer / Data Scientist**  
+Faculty Science
+
+**Data Scientist**  
+World Disaster Center
+
+**Postdoctoral Researcher**
+- University of Pittsburgh
+- Brown University
+- MIT 
+
+**Summer Undergraduate Research Fellow**  
+Caltech
 
 #### PROFESSIONAL SERVICES
 
-- MIT Science Policy Initiative
-- MIT Postdoctoral Association
+MIT Science Policy Initiative  
+MIT Postdoctoral Association
 
 #### AWARDS AND GRANTS
 
