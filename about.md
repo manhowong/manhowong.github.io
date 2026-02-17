@@ -8,6 +8,12 @@ permalink: /about/
 order: 0
 ---
 
+<style>
+  main, article, .post-content { 
+    font-size: 1rem !important; 
+  }
+</style>
+
 <h2>/wɔːŋ˩mɐn˩hou˩/ 
 <a href="/etc" style="text-decoration:none; color:rgba(0,204,92,0.925)"><sup>?</sup></a>
 </h2>
