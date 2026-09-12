@@ -64,19 +64,19 @@ MIT Postdoctoral Association
 <div class="pub-item">
   <div class="pub-title">Distinct transmission sites within a synapse for strengthening and homeostasis</div>
   <div class="pub-authors">Yue Yang*, <strong>Man Ho Wong*</strong>, Xiaojie Huang*, Delia N Chiu, Yu-Zhang Liu, Vishnu Prabakaran, Amna Imran, Elisa Panzeri, Yixuan Chen, Paloma Huguet, et al.</div>
-  <div class="pub-authors">*<em>co-first authors<em></div>  
-  <div class="pub-venue"><em>Science Advances</em> ('25), 11 (15), eads5750.</div>
+  <div class="pub-authors">*<em>co-first authors</em></div>  
+  <div class="pub-venue"><em>Science Advances</em> (2025), 11 (15), eads5750.</div>
 </div>
 
 <div class="pub-item">
   <div class="pub-title">SAP102 regulates synaptic AMPAR function through a CNIH-2-dependent mechanism</div>
   <div class="pub-authors">Mingna Liu, Rebecca Shi, Hongik Hwang, Kyung Seok Han, <strong>Man Ho Wong</strong>, Xiaobai Ren, Laura D Lewis, Emery N Brown, and Weifeng Xu</div>
-  <div class="pub-venue"><em>Journal of Neurophysiology</em> ('18), 120 (4), 1578–1586.</div>
+  <div class="pub-venue"><em>Journal of Neurophysiology</em> (2018), 120 (4), 1578–1586.</div>
 </div>
 
 <div class="pub-item">
   <div class="pub-title">Progressive maturation of silent synapses governs the duration of a critical period</div>
   <div class="pub-authors">Xiaojie Huang, Sophia K Stodieck, Bianka Goetze, Lei Cui, <strong>Man Ho Wong</strong>, Colin Wenzel, Leon Hosang, Yan Dong, Siegrid Löwel, and Oliver M Schlüter</div>
-  <div class="pub-venue"><em>Proceedings of the National Academy of Sciences</em> (<strong>PNAS '15</strong>), 112 (24), E3131–E3140.</div>
+  <div class="pub-venue"><em>Proceedings of the National Academy of Sciences</em> (2015), 112 (24), E3131–E3140.</div>
 </div>
 
