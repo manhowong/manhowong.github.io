@@ -1,0 +1,45 @@
+{% extends "default.html" %}
+
+{% block content %}
+<article class="profile-page">
+  <header class="page-header pb-4 mb-6">
+    <h1 class="page-title text-3xl font-bold text-zinc-900 tracking-tight mb-2">{{ title }}</h1>
+    {% if description %}
+    <p class="page-description text-lg text-zinc-600 font-serif mb-3">{{ description }}</p>
+    {% endif %}
+  </header>
+
+  <div class="profile-layout">
+    <aside class="profile-card" aria-label="Contact information">
+      {% if profile_card.image %}
+      <img
+        src="{{ base_path }}{{ profile_card.image.lstrip('/') }}"
+        alt="{{ profile_card.image_alt or site_author }}"
+        class="profile-image"
+      >
+      {% endif %}
+
+      <p style="font-weight: bold">{{ site_author }}</p>
+      {% if ethnic_name %}<p style="font-weight: bold">{{ ethnic_name }}</p>{% endif %}
+      {% if site_author_title %}<p style="font-style: italic;">{{ site_author_title }}</p>{% endif %}
+      <br>
+
+      {% if profile_card.links %}
+      <ul class="profile-links">
+        {% for link in profile_card.links %}
+        <li>
+          <a href="{{ link.url }}"{% if link.url.startswith('http') %} target="_blank" rel="noopener noreferrer"{% endif %}>
+            {{ link.label }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </aside>
+
+    <div class="profile-body prose-content">
+      {{ content | safe }}
+    </div>
+  </div>
+</article>
+{% endblock %}

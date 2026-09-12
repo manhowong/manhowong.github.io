@@ -1,0 +1,37 @@
+<footer id="site-footer" class="site-footer">
+  <div class="site-container-wide">
+    <div class="footer-content">
+      <div>
+        <p class="text-zinc-600 font-medium mb-1"> 
+            {{ site_author }} 
+            {% if footer.copyright_year %}
+                ({{ footer.copyright_year }})
+            {% endif %}
+        </p>
+        <p class="text-xs text-zinc-500 mb-0">{{ footer.description }}</p>
+      </div>
+      <ul class="footer-links">
+        {% for link in footer.links %}
+        <li>
+          <a id="footer-link-{{ link.icon }}"
+             href="{% if link.url.startswith('/') %}{{ base_path }}{{ link.url.lstrip('/') }}{% else %}{{ link.url }}{% endif %}"
+             {% if not link.url.startswith('/') %}target="_blank" rel="noopener noreferrer"{% endif %}
+             class="footer-link hover:underline flex items-center gap-1.5">
+            {{ link.title }}
+          </a>
+        </li>
+        {% endfor %}
+        <li>
+          <a id="footer-link-license" href="{{ footer.license_url }}" target="_blank" rel="noopener noreferrer" class="footer-link hover:underline flex items-center gap-1.5">
+            {{ footer.license_text }}
+          </a>
+        </li>
+        <li>
+          <a id="footer-link-imprint" href="{{ base_path }}{{ footer.imprint_url.lstrip('/') }}" class="footer-link hover:underline flex items-center gap-1.5">
+            Imprint
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>

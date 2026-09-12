@@ -1,0 +1,36 @@
+{% extends "default.html" %}
+
+{% block content %}
+<article>
+  <header class="page-header pb-4 mb-6">
+    <h1 class="page-title text-3xl font-bold text-zinc-900 tracking-tight mb-2">{{ title }}</h1>
+    {% if description %}
+    <p class="page-description text-lg text-zinc-600 font-serif mb-3">{{ description }}</p>
+    {% endif %}
+    
+    {% if date or author or last_modified %}
+    <div class="page-meta flex flex-wrap gap-4 text-xs text-zinc-500">
+      {% if date %}
+      <span class="inline-flex items-center gap-1">
+        <i data-lucide="calendar" class="w-3.5 h-3.5"></i> {{ date }}
+      </span>
+      {% endif %}
+      {% if author %}
+      <span class="inline-flex items-center gap-1">
+        <i data-lucide="user" class="w-3.5 h-3.5"></i> {{ author }}
+      </span>
+      {% endif %}
+      {% if last_modified %}
+      <span class="inline-flex items-center gap-1">
+        <i data-lucide="clock" class="w-3.5 h-3.5"></i> Updated: {{ last_modified }}
+      </span>
+      {% endif %}
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="page-body prose-content">
+    {{ content | safe }}
+  </div>
+</article>
+{% endblock %}

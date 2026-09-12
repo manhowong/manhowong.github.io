@@ -1,17 +1,19 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor/bundle
-.ipynb_checkpoints
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
 
 #------------------ common OS config files
-.DS_Store
 .Spotlight-V100
 Thumbs.db
 desktop.ini
+
 #------------------ Jupyter
 .ipynb_checkpoints
+
 #------------------ directories to ignore
 temp/
 draft/
@@ -19,5 +21,6 @@ private/
 __pycache__/
 unpublished/
 .obsidian/
+
 #------------------ files to ignore
 Erratas.md

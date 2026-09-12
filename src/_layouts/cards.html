@@ -1,0 +1,77 @@
+{% extends "default.html" %}
+
+{% block content %}
+<section class="cards-section">
+  <header class="page-header pb-4 mb-6">
+    <h1 class="page-title text-3xl font-bold text-zinc-900 tracking-tight mb-2">{{ title }}</h1>
+    {% if description %}
+    <p class="page-description text-lg text-zinc-600 font-serif mb-3">{{ description }}</p>
+    {% endif %}
+  </header>
+
+  <!-- Optional Prose Intro -->
+  {% if content and content.strip() %}
+  <div class="prose-content mb-8">
+    {{ content | safe }}
+  </div>
+  {% endif %}
+
+  <!-- Dynamic Card Grid -->
+  {% if cards %}
+  <div class="cards-grid">
+    {% for card in cards %}
+    <a href="{{ card.url or '#' }}" 
+       class="card-item group" 
+       {% if card.url and card.url.startswith('http') %}target="_blank" rel="noopener noreferrer"{% endif %}>
+      
+      <!-- Thumbnail Image -->
+      <div class="card-thumbnail-wrapper">
+        {% if card.image %}
+        <img src="{% if card.image and not card.image.startswith('http') %}{{ base_path }}{{ card.image.lstrip('/') }}{% else %}{{ card.image }}{% endif %}" 
+             alt="{{ card.title }}" 
+             class="card-thumbnail"
+             loading="lazy">
+        {% else %}
+        <div class="w-full h-full flex flex-col items-center justify-center bg-zinc-100 text-zinc-400">
+          <i data-lucide="folder-git-2" class="w-8 h-8 mb-1"></i>
+          <span class="text-xs uppercase tracking-wider font-mono">{{ card.badge or 'Project' }}</span>
+        </div>
+        {% endif %}
+      </div>
+
+      <!-- Card Body -->
+      <div class="card-body">
+        <div class="card-header-meta">
+          {% if card.badge %}
+          <span class="card-badge">{{ card.badge }}</span>
+          {% endif %}
+          {% if card.date %}
+          <span class="card-date">{{ card.date }}</span>
+          {% endif %}
+        </div>
+
+        <h3 class="card-title group-hover:text-blue-600 transition-colors">
+          {{ card.title }}
+        </h3>
+
+        <p class="card-description">
+          {{ card.description }}
+        </p>
+
+        <!-- Tags -->
+        {% if card.tags %}
+        <div class="card-tags">
+          {% for tag in card.tags %}
+          <span class="card-tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="text-zinc-500 italic">No entries found in this collection.</p>
+  {% endif %}
+</section>
+{% endblock %}

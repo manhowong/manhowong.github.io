@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Container Background -->
+  <rect width="512" height="512" rx="96" fill="#0A0A0A" />
+  
+  <!-- Subtle Outer Academic Border Frame -->
+  <rect x="28" y="28" width="456" height="456" rx="72" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.25" />
+
+  <g fill="#FFFFFF">
+    <!-- Serif Letter 'M' -->
+    <!-- Left Stem & Serifs -->
+    <path d="M 60 160 H 132 V 178 H 112 V 334 H 132 V 352 H 60 V 334 H 80 V 178 H 60 Z" />
+    <!-- Diagonal Struts -->
+    <path d="M 112 178 L 180 326 H 188 L 256 178 V 334 H 236 V 352 H 296 V 334 H 276 V 160 H 238 L 184 282 L 130 160 Z" />
+    <!-- Right Stem Serifs -->
+    <path d="M 236 160 H 296 V 178 H 276 V 334 H 296 V 352 H 236 V 334 H 256 V 178 H 236 Z" opacity="0" /> <!-- Spacer Logic -->
+
+    <!-- Serif Letter 'W' -->
+    <!-- Left Apex & Stem -->
+    <path d="M 280 160 H 340 V 178 H 322 L 348 316 L 378 178 H 362 V 160 H 426 V 178 H 410 L 436 316 L 462 178 H 444 V 160 H 504 V 178 H 484 L 450 352 H 420 L 394 228 L 368 352 H 338 L 304 178 H 280 Z" />
+  </g>
+</svg>

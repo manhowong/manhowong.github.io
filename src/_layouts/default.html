@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title and title != site_title %}{{ title }} — {{ site_title }}{% else %}{{ site_title }}{% endif %}</title>
+  <meta name="description" content="{{ description or site_description }}">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="{% if title and title != site_title %}{{ title }} — {{ site_title }}{% else %}{{ site_title }}{% endif %}">
+  <meta property="og:description" content="{{ description or site_description }}">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="{{ base_path }}assets/images/favicon.svg">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ base_path }}assets/css/base.css">
+  <link rel="stylesheet" href="{{ base_path }}assets/css/main.css">
+  <link rel="stylesheet" href="{{ base_path }}assets/css/responsive.css">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- MathJax Configuration & CDN (v3) -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        ignoreHtmlClass: 'tex2jax_ignore',
+        processHtmlClass: 'tex2jax_process|arithmatex'
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <!-- Mermaid.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+
+  {% block head_extra %}{% endblock %}
+</head>
+<body class="bg-white text-zinc-900 min-h-screen flex flex-col font-sans">
+
+  <!-- Sticky Site Navigation -->
+  {% block header %}
+  <header id="site-header" class="site-header">
+    <div class="site-container-wide">
+      <nav class="nav-wrapper" aria-label="Main Navigation">
+        <a id="brand-link" href="{{ base_path }}" class="site-brand">
+          <span>{{ site_title }}</span>
+        </a>
+
+        <!-- Mobile Navigation Hamburger -->
+        <button id="mobile-menu-btn" class="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+
+        <!-- Navigation Links: EXACT order -->
+        <ul id="nav-menu" class="nav-menu">
+          {% for item in nav_items %}
+          <li>
+            <a id="nav-item-{{ item.slug }}"
+              href="{% if item.url.startswith('http') %}{{ item.url }}{% else %}{{ base_path }}{{ item.url.lstrip('/') }}{% endif %}"
+              {% if item.url.startswith('http') %}target="_blank" rel="noopener noreferrer"{% endif %}
+               class="nav-link {% if current_slug == item.slug %}active{% endif %}">
+              {{ item.title }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </header>
+  {% endblock %}
+
+  <!-- Main Content Area -->
+  {% block main_wrapper %}
+  <main id="main-content" class="main-content">
+    <div class="site-container">
+      {% block content %}
+        {{ content | safe }}
+      {% endblock %}
+    </div>
+  </main>
+  {% endblock %}
+
+  {% block footer %}
+  {% include "footer.html" %}
+  {% endblock %}
+
+  <!-- Scripts: Lucide Icons, Mermaid, Mobile Menu -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Initialize Lucide Icons
+      if (typeof lucide !== 'undefined') {
+        lucide.createIcons();
+      }
+
+      // Initialize Mermaid Diagrams from markdown code blocks
+      const mermaidBlocks = document.querySelectorAll("pre code.language-mermaid, pre.mermaid, code.language-mermaid");
+      if (mermaidBlocks.length > 0 && typeof mermaid !== 'undefined') {
+        mermaidBlocks.forEach(function(el) {
+          const pre = el.tagName === 'PRE' ? el : el.parentElement;
+          const container = document.createElement("div");
+          container.className = "mermaid-container";
+          const mermaidDiv = document.createElement("pre");
+          mermaidDiv.className = "mermaid";
+          mermaidDiv.textContent = el.textContent.trim();
+          container.appendChild(mermaidDiv);
+          pre.parentNode.replaceChild(container, pre);
+        });
+
+        mermaid.initialize({
+          startOnLoad: true,
+          theme: 'neutral',
+          securityLevel: 'loose',
+          fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif'
+        });
+        mermaid.run();
+      }
+
+      // Mobile Menu Toggle
+      const mobileBtn = document.getElementById("mobile-menu-btn");
+      const navMenu = document.getElementById("nav-menu");
+      if (mobileBtn && navMenu) {
+        mobileBtn.addEventListener("click", function() {
+          const isOpen = navMenu.classList.toggle("open");
+          mobileBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        });
+      }
+    });
+  </script>
+  {% block extra_scripts %}{% endblock %}
+</body>
+</html>

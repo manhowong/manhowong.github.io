@@ -1,0 +1,47 @@
+site_title: "Man Ho Martin Wong"
+site_author: "Man Ho Martin Wong"
+site_author_title: "Dr. rer. nat."
+ethnic_name: "王文豪"
+site_email: "mhwong@gatech.edu"
+site_affiliation: "Computer Science & Systems"
+github_username: "manhowong"
+linkedin_username: "mh-wong"
+
+profile_card:
+  image: "/assets/images/profile.jpeg"
+  image_alt: "Profile picture"
+  links:
+    - label: "Email"
+      url: "mailto:mhwong@gatech.edu"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/mh-wong"
+    - label: "GitHub"
+      url: "https://github.com/manhowong"
+    - label: "ORCID"
+      url: "https://orcid.org/0000-0002-3738-1914"
+
+nav_items:
+  - title: "Profile"
+    url: "/profile/"
+  - title: "Computer Stuff"
+    url: "/computer/"
+  - title: "Random Stuff"
+    url: "/random/"
+  - title: "Learning Resources"
+    url: "/learning/"
+  - title: "GitHub"
+    url: "https://github.com/manhowong"
+
+footer:
+  copyright_year: 2026
+  description: "A collection of personal things. Mostly hobbies, some serious stuff."
+  imprint_url: "/imprint"
+  license_text: "CC BY-NC-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  # links:
+  #   - title: "GitHub"
+  #     url: "https://github.com/manhowong"
+  #   - title: "LinkedIn"
+  #     url: "https://www.linkedin.com/in/mh-wong"
+  #   - title: "ORCID"
+  #     url: "https://orcid.org/0000-0002-3738-1914"

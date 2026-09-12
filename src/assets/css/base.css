@@ -1,0 +1,236 @@
+/* ==========================================================================
+   Base Styles: Academic & Minimalist Design System
+   ========================================================================== */
+
+:root {
+  /* Color Palette */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f7f7f7;
+  --bg-subtle: #f0f0f0;
+  --bg-card: #ffffff;
+  --bg-code: #f6f8fa;
+  --bg-header: #ffffff;
+  --bg-footer: #f7f7f7;  
+
+  /* Typography Colors */
+  --text-primary: #18181b;
+  --text-secondary: #52525b;
+  --text-muted: #71717a;
+  --text-link: #0969da;
+  --text-link-hover: #1b4b91;
+
+  /* Accent Color */
+  --accent-color: #0969da;
+
+  /* Borders & Dividers */
+  --border-subtle: #d4d4d8;
+  --border-muted: #c4c4c8;
+
+  /* Elevation */
+  --shadow-card: rgba(0, 0, 0, 0.05);
+  --shadow-menu: rgba(0, 0, 0, 0.05);
+
+  /* Typography Scales */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Charter", "Bitstream Charter", "Sitka Text", "Cambria", Georgia, serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* Spacing & Layout */
+  --content-max-width: 54rem; /* 864px for optimal academic prose reading */
+  --wide-max-width: 68rem;
+  --nav-height: 4rem;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Prose Elements (markdown content) */
+p,
+.prose-content p {
+  margin-bottom: 1.25em;
+}
+
+.prose-content h1, 
+.prose-content h2, 
+.prose-content h3, 
+.prose-content h4, 
+.prose-content h5, 
+.prose-content h6 {
+  color: var(--text-primary);
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+}
+
+.prose-content h1 {
+  font-size: 2.125rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  border: none;
+}
+
+.prose-content h2 {
+  font-size: 1.5rem;
+  padding-bottom: 0.35rem;
+  border: none;
+}
+
+.prose-content h3 {
+  font-size: 1.25rem;
+}
+
+.prose-content h4 {
+  font-size: 1.05rem;
+}
+
+a, 
+.prose-content a {
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-decoration-color:var(--text-link);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+a:hover, 
+.prose-content a:hover {
+  text-decoration-thickness: 3px;
+}
+
+/* Lists */
+ul,
+.prose-content ul {
+  margin-bottom: 1.25em;
+  padding-left: 1.6em;
+  list-style: disc;
+}
+
+ol,
+.prose-content ol  {
+  margin-bottom: 1.25em;
+  padding-left: 1.6em;
+  list-style: decimal;
+}
+
+li, 
+.prose-content li {
+  margin-bottom: 0.4em;
+}
+
+li::marker, 
+.prose-content li::marker {
+  color: var(--text-muted);
+}
+
+/* Blockquotes */
+blockquote,
+.prose-content blockquote {
+  margin: 1.5em 0;
+  padding: 0.5em 0 0.5em 1.25em;
+  border-left: 3px solid var(--border-muted);
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+blockquote p:last-child,
+.prose-content blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* Horizontal Rule */
+hr, .prose-content hr {
+  border: 0;
+  border-top: 1px solid var(--border-subtle);
+  margin: 2.5em 0;
+}
+
+/* Inline Code & Preformatted Blocks */
+code {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  background-color: var(--bg-code);
+  padding: 0.15em 0.35em;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+}
+
+pre {
+  font-family: var(--font-mono);
+  font-size: 0.88rem;
+  background-color: var(--bg-code);
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  overflow-x: auto;
+  line-height: 1.5;
+  margin: 1.5em 0;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.75em 0;
+  font-size: 0.95rem;
+}
+
+th, td {
+  padding: 0.65rem 0.9rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+th {
+  font-weight: 600;
+  color: var(--text-primary);
+  background-color: var(--bg-subtle);
+  border-top: 1px solid var(--border-subtle);
+}
+
+tr:hover td {
+  background-color: var(--bg-secondary);
+}
+
+/* Images & Media */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  display: block;
+}

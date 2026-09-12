@@ -1,0 +1,16 @@
+[project]
+name = "my-static-site"
+version = "0.1.0"
+description = "A minimalist, academic static site generator built with Python, Jinja2, and Markdown."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jinja2>=3.1.4",
+    "markdown>=3.7",
+    "pymdown-extensions>=10.12",
+    "pyyaml>=6.0.2",
+    "pygments>=2.18.0",
+]
+
+[tool.uv]
+package = false

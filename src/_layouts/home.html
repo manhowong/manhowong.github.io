@@ -1,0 +1,38 @@
+{% extends "default.html" %}
+
+{% block header %}{% endblock %}
+
+{% block main_wrapper %}
+<main class="post-content" aria-label="Content" id="back-animation">
+  <div class="wrapper" id="front-page-wrapper">
+    <h1 class="front-page-name" style="font-weight: 400">{{ title or site_author }}</h1>
+    <h4 class="front-page-subtitle">
+      {% if ethnic_name %}<p>{{ ethnic_name }}</p>{% endif %}
+      {% if site_author_title %}<p style="font-style: italic;">{{ site_author_title }}</p>{% endif %}
+    </h4>
+    {% if description or site_description %}
+    <p class="front-page-description">{{ description or site_description }}</p>
+    {% endif %}
+    <div class="home-button-list">
+      <p class="home-button-paragraph">
+        {% if home_buttons %}
+          {% for btn in home_buttons %}
+          <h1 class="home-button-heading"><a
+            href="{% if btn.url.startswith('http') %}{{ btn.url }}{% else %}{{ base_path }}{{ btn.url.lstrip('/') }}{% endif %}"
+            {% if btn.url.startswith('http') %}target="_blank" rel="noopener noreferrer"{% endif %}
+            class="home-button">&nbsp;{{ btn.title }}&nbsp;</a></h1>
+          {% endfor %}
+        {% endif %}
+      </p>
+    </div>
+  </div>
+
+  <div id="home-footer">
+    <a class="footer-link" href="{{ footer.license_url }}" target="_blank" rel="noopener noreferrer">{{ footer.license_text }}</a>
+    <a class="footer-link" href="{{ base_path }}{{ footer.imprint_url.lstrip('/') }}">Imprint</a>
+  </div>
+</main>
+{% endblock %}
+
+{% block footer %}{% endblock %}
+
