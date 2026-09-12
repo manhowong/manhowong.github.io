@@ -63,7 +63,8 @@ MIT Postdoctoral Association
 
 <div class="pub-item">
   <div class="pub-title">Distinct transmission sites within a synapse for strengthening and homeostasis</div>
-  <div class="pub-authors">Yue Yang, <strong>Man Ho Wong</strong>, Xiaojie Huang, Delia N Chiu, Yu-Zhang Liu, Vishnu Prabakaran, Amna Imran, Elisa Panzeri, Yixuan Chen, Paloma Huguet, et al.</div>
+  <div class="pub-authors">Yue Yang*, <strong>Man Ho Wong*</strong>, Xiaojie Huang*, Delia N Chiu, Yu-Zhang Liu, Vishnu Prabakaran, Amna Imran, Elisa Panzeri, Yixuan Chen, Paloma Huguet, et al.</div>
+  <div class="pub-authors">*<em>co-first authors<em></div>  
   <div class="pub-venue"><em>Science Advances</em> ('25), 11 (15), eads5750.</div>
 </div>
 
