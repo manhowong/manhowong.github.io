@@ -30,7 +30,7 @@ Probably not as useful in the AI era, but I’m happy if someone finds them help
 #### Environment management
 
 - [Conda](https://github.com/manhowong/tips-and-cheatsheets/blob/main/conda-env-setup.md)
-- [uv](https://github.com/manhowong/tips-and-cheatsheets/blob/main/uv_cheatsheet.md)
+- [uv](https://github.com/manhowong/tips-and-cheatsheets/blob/main/uv-cheatsheet.md)
 - [Pixi](https://github.com/manhowong/tips-and-cheatsheets/blob/main/pixi_cheatsheet.md)
 
 #### Linux
