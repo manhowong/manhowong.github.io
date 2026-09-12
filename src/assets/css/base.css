@@ -121,6 +121,7 @@ a,
 
 a:hover, 
 .prose-content a:hover {
+  color: var(--text-link);
   text-decoration-thickness: 3px;
 }
 
