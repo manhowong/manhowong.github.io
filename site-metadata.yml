@@ -33,7 +33,7 @@ nav_items:
     url: "https://github.com/manhowong"
 
 footer:
-  copyright_year: 2026
+  copyright_year: 
   description: "A collection of personal things. Mostly hobbies, some serious stuff."
   imprint_url: "/imprint"
   license_text: "CC BY-NC-SA 4.0"

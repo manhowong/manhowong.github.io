@@ -107,7 +107,7 @@
 }
 
 /* Profile layout on tablets and smaller screens */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .profile-layout {
     display: block;
   }

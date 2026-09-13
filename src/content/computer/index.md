@@ -3,7 +3,7 @@ layout: cards
 title: Computer Stuff
 description: Software, plugins, research tools, pipelines, and demos.
 cards:
-  - title: AI/ML Trend Tracking
+  - title: Publication Trend Tracking
     badge: NLP / AI
     date: Ongoing
     description: arXiv publications classified by taxonomy-guided semantic search based on graded relevance. Topic relations and trends visualized with network graphs.
@@ -27,7 +27,7 @@ cards:
     tags: [Python, FastAPI, LLM]
     url: https://github.com/manhowong/AI-Repo-Summarizer-API
 
-  - title: Plan InPlace
+  - title: Plan-InPlace Task Planner for Agile Development
     badge: Dev Tool
     date: 2026
     description: Lightweight, multi-platform task planner available as VS Code extension and web app.
