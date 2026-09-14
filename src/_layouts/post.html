@@ -1,0 +1,43 @@
+{% extends "default.html" %}
+
+{% block content %}
+<article class="post">
+  <header class="page-header pb-4 mb-6">
+    <h1 class="page-title text-3xl font-bold text-zinc-900 tracking-tight mb-2">{{ title }}</h1>
+    {% if description or summary %}
+    <p class="page-description text-lg text-zinc-600 font-serif mb-3">{{ description or summary }}</p>
+    {% endif %}
+
+    {% if date or author %}
+    <div class="page-meta flex flex-wrap gap-4 text-xs text-zinc-500">
+      {% if date %}
+      <span class="inline-flex items-center gap-1">
+        <i data-lucide="calendar" class="w-3.5 h-3.5"></i> {{ date }}
+      </span>
+      {% endif %}
+      {% if author %}
+      <span class="inline-flex items-center gap-1">
+        <i data-lucide="user" class="w-3.5 h-3.5"></i> {{ author }}
+      </span>
+      {% endif %}
+    </div>
+    {% endif %}
+
+  </header>
+
+  <div class="post-layout">
+    <aside class="post-info" aria-label="Tags">
+    <p class="post-info-title">Article Tags</p>
+    {% if tags %}
+    {% for tag in tags %}<span class="hashtag">{{ tag }}</span>{% endfor %}
+    {% else %} 
+    <p class="text-sm text-zinc-500 italic">No article tags found.</p>
+    {% endif %}
+    </aside>
+
+    <div class="page-body prose-content">
+      {{ content | safe }}
+    </div>
+  </div>
+</article>
+{% endblock %}

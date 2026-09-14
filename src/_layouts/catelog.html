@@ -1,0 +1,45 @@
+{% extends "default.html" %}
+
+{% block content %}
+<section class="cards-section">
+  <header class="page-header pb-4 mb-6">
+    <h1 class="page-title text-3xl font-bold text-zinc-900 tracking-tight mb-2">{{ title }}</h1>
+    {% if description or summary %}
+    <p class="page-description text-lg text-zinc-600 font-serif mb-3">{{ description or summary }}</p>
+    {% endif %}
+  </header>
+
+  {% if content and content.strip() %}
+  <div class="prose-content mb-8">{{ content | safe }}</div>
+  {% endif %}
+
+  {% if catalog_items %}
+  <div class="catelog-list">
+    {% for item in catalog_items %}
+    <a href="{{ base_path }}{{ item.url.lstrip('/') }}" class="catelog-item group">
+      <div class="catelog-metadata">
+        <h2 class="catelog-title">{{ item.title }}</h2>
+        {% if item.author or item.date %}
+        <p class="catelog-byline">
+          {% if item.author %}
+          <span class="catelog-author">{{ item.author }}</span>
+          <span class="catelog-separator" aria-hidden="true">·</span>
+          {% endif %}
+          {% if item.date %}<span class="catelog-date">{{ item.date }}</span>{% endif %}
+        </p>
+        {% endif %}
+        {% if item.excerpt %}<p class="catelog-excerpt">{{ item.excerpt }}</p>{% endif %}
+        {% if item.tags %}
+        <div class="catelog-tags">
+          {% for tag in item.tags %}<span class="hashtag">{{ tag }}</span>{% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="text-zinc-500 italic">No entries found in this collection.</p>
+  {% endif %}
+</section>
+{% endblock %}

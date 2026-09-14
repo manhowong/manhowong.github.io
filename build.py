@@ -7,6 +7,7 @@ import os
 import re
 import shutil
 import sys
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -161,6 +162,81 @@ def determine_current_slug(output_file: Path, dist_dir: Path) -> str:
     return parts[0]
 
 
+def clean_catalog_text(text: str) -> str:
+    """Remove HTML elements and their contents from catalog excerpts."""
+
+    class VisibleTextParser(HTMLParser):
+        void_tags = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}
+
+        def __init__(self) -> None:
+            super().__init__(convert_charrefs=True)
+            self.element_depth = 0
+            self.visible_text: List[str] = []
+
+        def handle_starttag(self, tag: str, attrs: Any) -> None:
+            if tag not in self.void_tags:
+                self.element_depth += 1
+
+        def handle_endtag(self, tag: str) -> None:
+            if self.element_depth:
+                self.element_depth -= 1
+
+        def handle_data(self, data: str) -> None:
+            if self.element_depth == 0:
+                self.visible_text.append(data)
+
+    parser = VisibleTextParser()
+    parser.feed(text)
+    visible_text = "".join(parser.visible_text)
+    return re.sub(r"\s+", " ", html.unescape(visible_text)).strip().lstrip("# ").strip()
+
+
+def collect_catalog_items(
+    directory: str,
+    content_dir: Path,
+    dist_dir: Path,
+) -> List[Dict[str, Any]]:
+    """Collect frontmatter and URLs for markdown files in a content directory."""
+    if not directory.strip("/"):
+        print("[!] Catalog layout requires a 'directory' value", file=sys.stderr)
+        return []
+
+    catalog_dir = content_dir / directory.strip("/")
+    if not catalog_dir.is_dir():
+        print(f"[!] Catalog directory not found: {directory}", file=sys.stderr)
+        return []
+
+    items: List[Dict[str, Any]] = []
+    item_paths = list(catalog_dir.rglob("*.md")) + list(catalog_dir.rglob("*.markdown"))
+    for item_path in sorted(item_paths):
+        rel_content_path = item_path.relative_to(content_dir)
+        if rel_content_path.name in ("index.md", "index.markdown"):
+            continue
+
+        with open(item_path, "r", encoding="utf-8") as f:
+            metadata, body = parse_frontmatter(f.read())
+
+        item = dict(metadata)
+        if item.get("draft") is True:
+            continue
+        if not item.get("summary") and not item.get("description"):
+            clean_body = clean_catalog_text(body)
+            item["excerpt"] = next(
+                (clean_catalog_text(line) for line in clean_body.splitlines() if clean_catalog_text(line)),
+                "",
+            )
+        else:
+            item["excerpt"] = clean_catalog_text(item.get("summary") or item.get("description"))
+        item["url"] = "/" + compute_output_path(rel_content_path, dist_dir).relative_to(dist_dir).parent.as_posix() + "/"
+        items.append(item)
+
+    return sorted(
+        items,
+        key=lambda item: (item.get("date") is not None, str(item.get("date", ""))),
+        reverse=True,
+    )
+
+
 # ==============================================================================
 # Main Build Engine
 # ==============================================================================
@@ -261,7 +337,15 @@ def build_site(
             "page_path": str(rel_content_path),
             "content": rendered_body_html,
             **metadata,
+            "draft": metadata.get("draft") is True,
         }
+
+        if layout_name in ("catalog", "catelog"):
+            context["catalog_items"] = collect_catalog_items(
+                str(metadata.get("directory", "")),
+                content_dir,
+                dist_dir,
+            )
 
         rendered_html = template.render(context)
 
