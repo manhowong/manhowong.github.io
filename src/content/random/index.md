@@ -8,8 +8,8 @@ description: Resources, cheatsheets, and a few random hobbies.
 
 Some term papers I wrote for the linguistics courses I took after getting really into speech sounds:
 
-- **A (Very) Brief Comparison of Bengali and English Phonological Systems** ([Read here](https://lingbuzz.net/lingbuzz/007140))
-- **A Short Introduction to the Perception-Production Asymmetry of Cantonese Tone Mergers** ([Read here](https://github.com/manhowong/manhowong/blob/main/cantonese_tone_mergers.pdf))
+- *A (Very) Brief Comparison of Bengali and English Phonological Systems* ([Read here](/blog/bengali-sounds))
+- *A Short Introduction to the Perception-Production Asymmetry of Cantonese Tone Mergers* ([Read here](/blog/cantonese-tone-mergers))
 
 ---
 
