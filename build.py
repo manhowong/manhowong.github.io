@@ -128,6 +128,10 @@ def compute_output_path(source_rel_path: Path, dist_dir: Path) -> Path:
     """
     parts = list(source_rel_path.parts)
 
+    if parts[-1] in ("404.md", "404.markdown"):
+        # GitHub Pages uses a root-level 404.html file for custom error pages.
+        return dist_dir / "404.html"
+
     if parts[-1] in ("index.md", "index.markdown"):
         # Keep directory structure: e.g. computer/index.md -> dist/computer/index.html
         if len(parts) == 1:
