@@ -1,6 +1,6 @@
 ---
 layout: cards
-title: Learning Resources
+title: Tutorials
 description: Sharing my teaching and learning materials. Feel free to adapt them for your use!  
 cards:
   - title: A Plain Walkthrough of Transformer Models (draft)
