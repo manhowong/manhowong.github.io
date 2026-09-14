@@ -126,6 +126,15 @@
   .profile-body {
     width: 100%;
   }
+
+  .post-layout {
+    display: block;
+  }
+
+  .post-info {
+    width: 100%;
+    margin: 0 0 1.5rem;
+  }
 }
 
 /* Small Mobile Screens (<= 480px) */
@@ -136,5 +145,15 @@
 
   .card-thumbnail-wrapper {
     height: 140px;
+  }
+
+  .catelog-metadata {
+    padding: 1rem;
+  }
+
+  .catelog-excerpt {
+    width: 100%;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 }

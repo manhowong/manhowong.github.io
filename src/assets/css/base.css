@@ -109,6 +109,11 @@ p,
   font-size: 1.05rem;
 }
 
+.prose-content em,
+.prose-content i {
+  font-style: italic;
+}
+
 a, 
 .prose-content a {
   color: var(--text-primary);
