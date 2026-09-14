@@ -128,10 +128,6 @@ def compute_output_path(source_rel_path: Path, dist_dir: Path) -> Path:
     """
     parts = list(source_rel_path.parts)
 
-    if parts[-1] in ("404.md", "404.markdown"):
-        # GitHub Pages uses a root-level 404.html file for custom error pages.
-        return dist_dir / "404.html"
-
     if parts[-1] in ("index.md", "index.markdown"):
         # Keep directory structure: e.g. computer/index.md -> dist/computer/index.html
         if len(parts) == 1:
@@ -281,7 +277,14 @@ def build_site(
     else:
         dist_assets_dir.mkdir(parents=True, exist_ok=True)
 
-    # 3. Initialize Jinja2 environment
+    # 3. Copy custom 404 page into the root of the generated site for GitHub Pages.
+    custom_404_src = Path("src") / "404.html"
+    if custom_404_src.exists():
+        custom_404_dst = dist_dir / "404.html"
+        shutil.copy2(custom_404_src, custom_404_dst)
+        print(f"[*] Copied custom 404 page: {custom_404_src} -> {custom_404_dst}")
+
+    # 4. Initialize Jinja2 environment
     jinja_env = jinja2.Environment(
         loader=jinja2.FileSystemLoader(str(layouts_dir)),
         autoescape=jinja2.select_autoescape(["html", "xml"]),
@@ -289,12 +292,12 @@ def build_site(
         lstrip_blocks=True,
     )
 
-    # 4. Discover all markdown content files
+    # 5. Discover all markdown content files
     md_files = list(content_dir.rglob("*.md")) + list(content_dir.rglob("*.markdown"))
     md_files.sort()
     print(f"[*] Found {len(md_files)} content document(s) in {content_dir}")
 
-    # 5. Process and compile each markdown file
+    # 6. Process and compile each markdown file
     generated_count = 0
     for md_path in md_files:
         rel_content_path = md_path.relative_to(content_dir)
