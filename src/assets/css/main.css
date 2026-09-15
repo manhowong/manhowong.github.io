@@ -99,13 +99,51 @@
   background: transparent;
   border: none;
   padding: 0.4rem;
-  color: var(--text-primary);
   cursor: pointer;
-  border-radius: var(--radius-sm);
 }
 
-.mobile-nav-toggle:hover {
-  background-color: var(--bg-subtle);
+/* Create a hamburger menu icon (3 lines) */
+
+/* Middle line of the menu icon */
+.mobile-menu-icon {
+  position: relative;
+  display: block;
+  width: 1.5rem;
+  height: 2px;
+  background-color: currentColor;
+  transition: background-color 0.2s ease;
+}
+
+/* Add 2 lines to the icon */
+.mobile-menu-icon::before,
+.mobile-menu-icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 1.7rem;
+  height: 2px;
+  background-color: currentColor;
+  transition: transform 0.2s ease;
+}
+/* Shift one line up and one line down */
+.mobile-menu-icon::before {
+  transform: translateY(-0.5rem);
+}
+.mobile-menu-icon::after {
+  transform: translateY(0.5rem);
+}
+
+/* When toggled, middle line disappears, 
+top and bottom lines rotate to form a cross */
+.mobile-nav-toggle[aria-expanded="true"] .mobile-menu-icon {
+  background-color: transparent;
+}
+.mobile-nav-toggle[aria-expanded="true"] .mobile-menu-icon::before {
+  transform: rotate(45deg);
+}
+.mobile-nav-toggle[aria-expanded="true"] .mobile-menu-icon::after {
+  transform: rotate(-45deg);
 }
 
 /* Card Component Grid (_layouts/cards.html) */
