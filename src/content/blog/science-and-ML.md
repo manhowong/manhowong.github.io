@@ -21,7 +21,7 @@ To share a scientist's perspective on machine learning, I’m going to use an im
 
 Whether you're a beginner looking for a high-level intuition or an ML practitioner looking for a fresh perspective, I hope this gives you some satisfying food for thought!
 
-### The Conversation
+## The Conversation
 
 **Engineer:** Curve fitting isn't machine learning.
 
@@ -45,7 +45,7 @@ What is that?
 
 **Scientist:** So at least some curve fitting is ML.
 
-#### "The equation is known in advance"
+### "The equation is known in advance"
 
 **Engineer:** Fine. But that's just a special case. In curve fitting, you already know the equation. In ML, the model learns the function.
 
@@ -63,7 +63,7 @@ What is that?
 
 **Scientist:** Certainly. But that's a difference in *model capacity*, not necessarily in the underlying process: you first choose the model/function form, then learn the parameters from your data.
 
-#### "But neural networks *learn* their parameters"
+### "But neural networks *learn* their parameters"
 
 **Engineer:** Neural networks learn their parameters. That's what makes them machine "learning".
 
@@ -83,7 +83,7 @@ If I fit $y=ae^{-bx}$ by finding $a$ and $b$ that minimize the error function, a
 
 **Scientist:** That's perfectly reasonable, though that's just terminology and context, rather than a fundamental mathematical difference.
 
-#### "Scientists care About the parameters"
+### "Scientists care About the parameters"
 
 **Engineer:** Wait... What about how the parameters are interpreted? Scientists often care about the parameters themselves. For example, when you fit your synaptic currents or whatever brain signals to the decay equation,
 
@@ -107,7 +107,7 @@ You might actually want to know $k$ because it has scientific meaning. An ML eng
 
 **Scientist:** Then the interpretability of parameters isn't the boundary.
 
-#### "ML is about prediction"
+### "ML is about prediction"
 
 **Engineer:** Fine. The real distinction is prediction. ML is about *generalization to unseen data*. Curve fitting is about *explaining or describing the observed data*.
 
@@ -117,7 +117,7 @@ You might actually want to know $k$ because it has scientific meaning. An ML eng
 
 **Scientist:** I'm not. I'm saying prediction alone doesn't separates them.
 
-#### "But ML is much more sophisticated"
+### "But ML is much more sophisticated"
 
 **Engineer:** ML is much more sophisticated. Neural networks have millions or billions of parameters.
 
@@ -131,7 +131,7 @@ You might actually want to know $k$ because it has scientific meaning. An ML eng
 
 **Scientist:** So model complexity can't define the boundary either.
 
-#### "But curve fitting uses *equations*"
+### "But curve fitting uses *equations*"
 
 **Engineer:** That's fair, but curve fitting explicitly uses *equations*. ML uses *models*.
 
@@ -161,7 +161,7 @@ $$
 
 **Scientist:** Absolutely. But again, that's model capacity, not a fundamental difference.
 
-#### Looking at a higher level
+### Looking at a higher level
 
 **Scientist:** Let's try to think at a higher level. What makes something machine learning?
 
