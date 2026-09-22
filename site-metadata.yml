@@ -23,10 +23,10 @@ profile_card:
 nav_items:
   - title: "Profile"
     url: "/profile/"
-  - title: "Computer Stuff"
-    url: "/computer/"
   - title: "Blog"
     url: "/blog/"
+  - title: "Computer Stuff"
+    url: "/computer/"
   - title: "Tutorials"
     url: "/tutorials/"
   - title: "Random Stuff"
