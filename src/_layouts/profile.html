@@ -28,7 +28,7 @@
       <ul class="profile-links">
         {% for link in profile_card.links %}
         <li>
-          <a href="{{ link.url }}"{% if link.url.startswith('http') %} target="_blank" rel="noopener noreferrer"{% endif %}>
+          <a href="{{ link.url }}">
             {{ link.label }}
           </a>
         </li>

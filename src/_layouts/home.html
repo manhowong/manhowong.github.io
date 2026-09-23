@@ -19,7 +19,6 @@
           {% for btn in home_buttons %}
           <h1 class="home-button-heading"><a
             href="{% if btn.url.startswith('http') %}{{ btn.url }}{% else %}{{ base_path }}{{ btn.url.lstrip('/') }}{% endif %}"
-            {% if btn.url.startswith('http') %}target="_blank" rel="noopener noreferrer"{% endif %}
             class="home-button">&nbsp;{{ btn.title }}&nbsp;</a></h1>
           {% endfor %}
         {% endif %}
@@ -28,7 +27,7 @@
   </div>
 
   <div id="home-footer">
-    <a class="footer-link" href="{{ footer.license_url }}" target="_blank" rel="noopener noreferrer">{{ footer.license_text }}</a>
+    <a class="footer-link" href="{{ footer.license_url }}">{{ footer.license_text }}</a>
     <a class="footer-link" href="{{ base_path }}{{ footer.imprint_url.lstrip('/') }}">Imprint</a>
   </div>
 </main>

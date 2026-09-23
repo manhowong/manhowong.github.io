@@ -15,14 +15,14 @@
         <li>
           <a id="footer-link-{{ link.icon }}"
              href="{% if link.url.startswith('/') %}{{ base_path }}{{ link.url.lstrip('/') }}{% else %}{{ link.url }}{% endif %}"
-             {% if not link.url.startswith('/') %}target="_blank" rel="noopener noreferrer"{% endif %}
+             {% if not link.url.startswith('/') %}{% endif %}
              class="footer-link hover:underline flex items-center gap-1.5">
             {{ link.title }}
           </a>
         </li>
         {% endfor %}
         <li>
-          <a id="footer-link-license" href="{{ footer.license_url }}" target="_blank" rel="noopener noreferrer" class="footer-link hover:underline flex items-center gap-1.5">
+          <a id="footer-link-license" href="{{ footer.license_url }}" class="footer-link hover:underline flex items-center gap-1.5">
             {{ footer.license_text }}
           </a>
         </li>

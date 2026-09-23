@@ -20,9 +20,7 @@
   {% if cards %}
   <div class="cards-grid">
     {% for card in cards %}
-    <a href="{{ card.url or '#' }}" 
-       class="card-item group" 
-       {% if card.url and card.url.startswith('http') %}target="_blank" rel="noopener noreferrer"{% endif %}>
+    <a href="{{ card.url or '#' }}" class="card-item group">
       
       <!-- Thumbnail Image -->
       <div class="card-thumbnail-wrapper">

@@ -10,7 +10,7 @@ draft: false
 ---
 
 <figure class="image-box">
-	<a href="/assets/images/Geographic_distribution_of_Bengali_language.png" target="_blank" rel="noopener noreferrer">
+	<a href="/assets/images/Geographic_distribution_of_Bengali_language.png">
 		<img src="/assets/images/Geographic_distribution_of_Bengali_language.png" alt="Geographic distribution of Bengali language">
 	</a>
 	<figcaption>
