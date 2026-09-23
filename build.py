@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
 import os
 import re
@@ -191,6 +192,43 @@ def clean_catalog_text(text: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(visible_text)).strip().lstrip("# ").strip()
 
 
+def version_static_assets(source_assets_dir: Path, dist_assets_dir: Path) -> Dict[str, str]:
+    """Copy static assets using content hashes in their filenames and return URL replacements."""
+    if not source_assets_dir.exists():
+        return {}
+
+    replacements: Dict[str, str] = {}
+    dist_assets_dir.mkdir(parents=True, exist_ok=True)
+
+    for src_file in sorted(source_assets_dir.rglob("*")):
+        if not src_file.is_file():
+            continue
+
+        rel_path = src_file.relative_to(source_assets_dir)
+        file_hash = hashlib.sha256(src_file.read_bytes()).hexdigest()[:12]
+        file_name = src_file.name
+        stem = src_file.stem
+        suffix = src_file.suffix
+        versioned_name = f"{stem}.{file_hash}{suffix}" if suffix else f"{file_name}.{file_hash}"
+        dest_file = dist_assets_dir / rel_path.parent / versioned_name
+        dest_file.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(src_file, dest_file)
+
+        original_url = f"/assets/{rel_path.as_posix()}"
+        versioned_url = f"/assets/{rel_path.parent.joinpath(versioned_name).as_posix()}"
+        replacements[original_url] = versioned_url
+        replacements[original_url.lstrip("/")] = versioned_url.lstrip("/")
+
+    return replacements
+
+
+def rewrite_asset_urls(html_text: str, replacements: Dict[str, str]) -> str:
+    """Rewrite asset URLs in rendered HTML to their versioned filenames."""
+    for original, versioned in replacements.items():
+        html_text = html_text.replace(original, versioned)
+    return html_text
+
+
 def collect_catalog_items(
     directory: str,
     content_dir: Path,
@@ -269,11 +307,12 @@ def build_site(
         shutil.rmtree(dist_dir)
     dist_dir.mkdir(parents=True, exist_ok=True)
 
-    # 2. Copy static assets (CSS, images, icons)
+    # 2. Copy static assets (CSS, images, icons) with content-based versioning
     dist_assets_dir = dist_dir / "assets"
+    asset_url_replacements: Dict[str, str] = {}
     if assets_dir.exists():
         print(f"[*] Copying static assets from {assets_dir} -> {dist_assets_dir}")
-        shutil.copytree(assets_dir, dist_assets_dir, dirs_exist_ok=True)
+        asset_url_replacements = version_static_assets(assets_dir, dist_assets_dir)
     else:
         dist_assets_dir.mkdir(parents=True, exist_ok=True)
 
@@ -355,6 +394,7 @@ def build_site(
             )
 
         rendered_html = template.render(context)
+        rendered_html = rewrite_asset_urls(rendered_html, asset_url_replacements)
 
         # Write output file safely
         output_path.parent.mkdir(parents=True, exist_ok=True)
