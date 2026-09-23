@@ -69,7 +69,6 @@
           <li>
             <a id="nav-item-{{ item.slug }}"
               href="{% if item.url.startswith('http') %}{{ item.url }}{% else %}{{ base_path }}{{ item.url.lstrip('/') }}{% endif %}"
-              {% if item.url.startswith('http') %}target="_blank" rel="noopener noreferrer"{% endif %}
                class="nav-link {% if current_slug == item.slug %}active{% endif %}">
               {{ item.title }}
             </a>
@@ -137,6 +136,16 @@
         });
       }
     });
+
+    // External links open in a new tab (link starting with http:// or https://)
+    document.addEventListener("DOMContentLoaded", () => {
+      const externalLinks = document.querySelectorAll('a[href^="http://"], a[href^="https://"]');
+      externalLinks.forEach(link => {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      });
+    });
+
   </script>
   {% block extra_scripts %}{% endblock %}
 </body>
