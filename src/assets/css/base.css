@@ -28,7 +28,7 @@
 
   /* Elevation */
   --shadow-card: rgba(0, 0, 0, 0.05);
-  --shadow-menu: rgba(0, 0, 0, 0.05);
+  --shadow-menu: rgba(0, 0, 0, 0.1);
 
   /* Typography Scales */
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -41,6 +41,47 @@
   --nav-height: 4rem;
   --radius-sm: 4px;
   --radius-md: 6px;
+
+  /* Font Size Scale */
+  --font-size-root: 16px;
+  --font-size-2xs: 0.8rem;  /* card/catalog tag/badge,card date, mobile home-footer */
+  --font-size-xs: 0.88rem;  /* publication venue/links, image caption, pre blocks, inline code, footer, mobile table  */
+  --font-size-sm: 0.925rem; /* tables, nav link, publication authors, catalog byline, card description, profile links, post info title */
+  --font-size-md: 1.1rem;   /* h4, publication title, site brand, front-page subtitle/description, card/catalog title */
+  --font-size-lg: 1.25rem;    /* h3, mobile nav link */
+  --font-size-xl: 1.5rem;     /* h2 */
+  --font-size-2xl: 2.125rem;  /* h1 */
+  --font-size-home-name: clamp(1.8rem, 2rem, 2.25rem);
+  --font-size-home-subtitle: clamp(1rem, 1.8vw, 1.35rem);
+  --font-size-home-button: clamp(1.4rem, 1.6rem, 2rem);
+
+  /* Spacing Scale */
+  --space-2: 0.1rem;
+  --space-3: 0.15rem;
+  --space-4: 0.2rem;
+  --space-5: 0.25rem;
+  --space-7: 0.35rem;
+  --space-8: 0.4rem;
+  --space-9: 0.45rem;
+  --space-10: 0.5rem;
+  --space-11: 0.55rem;
+  --space-12: 0.6rem;
+  --space-13: 0.65rem;
+  --space-15: 0.75rem;
+  --space-18: 0.9rem;
+  --space-20: 1rem;
+  --space-25: 1.25rem;
+  --space-30: 1.5rem;
+  --space-34: 1.7rem;
+  --space-35: 1.75rem;
+  --space-40: 2rem;
+  --space-45: 2.25rem;
+  --space-50: 2.5rem;
+  --space-70: 3.5rem;
+  --space-90: 4.5rem;
+  --space-200: 10rem;
+  --space-640: 32rem;
+  --space-840: 42rem;
 }
 
 *, *::before, *::after {
@@ -51,7 +92,7 @@
 
 html {
   font-family: var(--font-sans);
-  font-size: 16px;
+  font-size: var(--font-size-root);
   line-height: 1.65;
   color: var(--text-primary);
   background-color: var(--bg-primary);
@@ -89,24 +130,24 @@ p,
 }
 
 .prose-content h1 {
-  font-size: 2.125rem;
+  font-size: var(--font-size-2xl);
   font-weight: 700;
   letter-spacing: -0.025em;
   border: none;
 }
 
 .prose-content h2 {
-  font-size: 1.5rem;
-  padding-bottom: 0.35rem;
+  font-size: var(--font-size-xl);
+  padding-bottom: var(--space-7);
   border: none;
 }
 
 .prose-content h3 {
-  font-size: 1.25rem;
+  font-size: var(--font-size-lg);
 }
 
 .prose-content h4 {
-  font-size: 1.05rem;
+  font-size: var(--font-size-md);
 }
 
 .prose-content em,
@@ -162,7 +203,6 @@ blockquote,
   padding: 0.5em 0 0.5em 1.25em;
   border-left: 3px solid var(--border-muted);
   color: var(--text-secondary);
-  font-style: italic;
 }
 
 blockquote p:last-child,
@@ -180,7 +220,7 @@ hr, .prose-content hr {
 /* Inline Code & Preformatted Blocks */
 code {
   font-family: var(--font-mono);
-  font-size: 0.88em;
+  font-size: var(--font-size-xs);
   background-color: var(--bg-code);
   padding: 0.15em 0.35em;
   border-radius: var(--radius-sm);
@@ -190,9 +230,9 @@ code {
 
 pre {
   font-family: var(--font-mono);
-  font-size: 0.88rem;
+  font-size: var(--font-size-xs);
   background-color: var(--bg-code);
-  padding: 1rem 1.25rem;
+  padding: var(--space-20) var(--space-25);
   border-radius: var(--radius-md);
   border: 1px solid var(--border-subtle);
   overflow-x: auto;
@@ -213,11 +253,11 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.75em 0;
-  font-size: 0.95rem;
+  font-size: var(--font-size-sm);
 }
 
 th, td {
-  padding: 0.65rem 0.9rem;
+  padding: var(--space-13) var(--space-18);
   text-align: left;
   border-bottom: 1px solid var(--border-subtle);
 }

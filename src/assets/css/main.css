@@ -8,8 +8,8 @@
   max-width: var(--content-max-width);
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: var(--space-30);
+  padding-right: var(--space-30);
 }
 
 .site-container-wide {
@@ -17,14 +17,14 @@
   max-width: var(--wide-max-width);
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: var(--space-30);
+  padding-right: var(--space-30);
 }
 
 .main-content {
   flex: 1 0 auto;
-  padding-top: 2.5rem;
-  padding-bottom: 4.5rem;
+  padding-top: var(--space-50);
+  padding-bottom: var(--space-90);
   background-color: var(--bg-primary);
 }
 
@@ -48,9 +48,9 @@
 .site-brand {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: var(--space-10);
   font-weight: 700;
-  font-size: 1.05rem;
+  font-size: var(--font-size-md);
   color: var(--text-primary);
   text-decoration: none;
   letter-spacing: -0.015em;
@@ -64,18 +64,18 @@
 .nav-menu {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: var(--space-30);
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .nav-link {
-  font-size: 0.925rem;
+  font-size: var(--font-size-sm);
   color: var(--text-secondary);
   text-decoration: none;
   font-weight: 500;
-  padding: 0.35rem 0.15rem;
+  padding: var(--space-7) var(--space-3);
   border-bottom: 2px solid transparent;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
@@ -98,7 +98,7 @@
   display: none;
   background: transparent;
   border: none;
-  padding: 0.4rem;
+  padding: var(--space-8);
   cursor: pointer;
 }
 
@@ -108,7 +108,7 @@
 .mobile-menu-icon {
   position: relative;
   display: block;
-  width: 1.5rem;
+  width: var(--space-30);
   height: 2px;
   background-color: currentColor;
   transition: background-color 0.2s ease;
@@ -121,7 +121,7 @@
   position: absolute;
   left: 0;
   display: block;
-  width: 1.7rem;
+  width: var(--space-34);
   height: 2px;
   background-color: currentColor;
   transition: transform 0.2s ease;
@@ -150,15 +150,15 @@ top and bottom lines rotate to form a cross */
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem auto;
+  gap: var(--space-30);
+  margin: var(--space-40) auto;
 }
 
 .catelog-list {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: 1.25rem;
-  margin: 2rem 0;
+  gap: var(--space-25);
+  margin: var(--space-40) 0;
 }
 
 .catelog-item {
@@ -182,14 +182,14 @@ top and bottom lines rotate to form a cross */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.45rem;
-  padding: 1.25rem 1.5rem;
+  gap: var(--space-9);
+  padding: var(--space-25) var(--space-30);
 }
 
 .catelog-title {
   margin: 0;
   color: var(--text-primary);
-  font-size: 1.15rem;
+  font-size: var(--font-size-md);
   font-weight: 600;
   line-height: 1.35;
 }
@@ -202,10 +202,10 @@ top and bottom lines rotate to form a cross */
   display: flex;
   align-items: baseline;
   flex-wrap: wrap;
-  gap: 0.45rem;
+  gap: var(--space-9);
   margin: 0;
   color: var(--text-secondary);
-  font-size: 0.9rem;
+  font-size: var(--font-size-sm);
 }
 
 .catelog-separator {
@@ -218,7 +218,7 @@ top and bottom lines rotate to form a cross */
   overflow: hidden;
   margin: 0;
   color: var(--text-secondary);
-  font-size: 0.95rem;
+  font-size: var(--font-size-sm);
   line-height: 1.5;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
@@ -228,13 +228,13 @@ top and bottom lines rotate to form a cross */
 .catelog-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-top: 0.35rem;
+  gap: var(--space-8);
+  margin-top: var(--space-7);
 }
 
 .catelog-tag {
   color: var(--text-muted);
-  font-size: 0.775rem;
+  font-size: var(--font-size-2xs);
 }
 
 .card-item {
@@ -285,25 +285,25 @@ top and bottom lines rotate to form a cross */
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding: 1.25rem;
+  padding: var(--space-25);
 }
 
 .card-header-meta {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.5rem;
-  margin-bottom: 0.6rem;
+  gap: var(--space-10);
+  margin-bottom: var(--space-12);
 }
 
 .card-badge {
   display: inline-flex;
   align-items: center;
-  font-size: 0.75rem;
+  font-size: var(--font-size-2xs);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  padding: 0.15rem 0.55rem;
+  padding: var(--space-3) var(--space-11);
   background-color: var(--bg-subtle);
   color: var(--text-secondary);
   border: 1px solid var(--border-subtle);
@@ -312,24 +312,24 @@ top and bottom lines rotate to form a cross */
 }
 
 .card-date {
-  font-size: 0.8rem;
+  font-size: var(--font-size-2xs);
   color: var(--text-muted);
   white-space: nowrap;
 }
 
 .card-title {
-  font-size: 1.15rem;
+  font-size: var(--font-size-md);
   font-weight: 600;
   color: var(--text-primary);
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--space-10);
   line-height: 1.35;
 }
 
 .card-description {
-  font-size: 0.9rem;
+  font-size: var(--font-size-sm);
   color: var(--text-secondary);
-  margin-bottom: 1rem;
+  margin-bottom: var(--space-20);
   flex-grow: 1;
   line-height: 1.5;
 }
@@ -337,53 +337,53 @@ top and bottom lines rotate to form a cross */
 .card-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
+  gap: var(--space-8);
   margin-top: auto;
-  padding-top: 0.75rem;
+  padding-top: var(--space-15);
   border-top: 1px solid var(--border-subtle);
 }
 
 .hashtag {
-  font-size: 0.775rem;
+  font-size: var(--font-size-2xs);
   color: var(--text-muted);
   background-color: var(--bg-secondary);
-  padding: 0.1rem 0.45rem;
+  padding: var(--space-2) var(--space-9);
   border-radius: var(--radius-sm);
   border: 1px solid var(--border-subtle);
 }
 
 .post-thumbnail {
   width: 100%;
-  max-height: 10rem;
+  max-height: var(--space-200);
   object-fit: cover;
-  margin-top: 1.5rem;
+  margin-top: var(--space-30);
 }
 
 .post-info {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  gap: 0.4rem;
+  gap: var(--space-8);
   min-width: 0;
 }
 
 .post-info-title {
   flex-basis: 100%; /* Take full line */
-  font-size: 0.9rem;
+  font-size: var(--font-size-sm);
   font-weight: 600;
 }
 
 .post-layout {
   display: grid;
   grid-template-columns: minmax(130px, 180px) minmax(0, 1fr);
-  gap: 2.5rem;
+  gap: var(--space-50);
   align-items: start;
 }
 
 .image-box {
   width: min(100%, 300px);
-  margin: 2rem auto;
-  padding: 0.5rem;
+  margin: var(--space-40) auto;
+  padding: var(--space-10);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
   overflow: hidden;
@@ -396,7 +396,7 @@ top and bottom lines rotate to form a cross */
 
 .image-box img {
   width: 100%;
-  max-height: 32rem;
+  max-height: var(--space-640);
   object-fit: contain;
   background-color: var(--bg-subtle);
 }
@@ -404,10 +404,10 @@ top and bottom lines rotate to form a cross */
 .image-box figcaption {
   display: flex;
   flex-direction: column;
-  gap: 0.35rem;
-  margin-top: 0.75rem;
+  gap: var(--space-7);
+  margin-top: var(--space-15);
   color: var(--text-muted);
-  font-size: 0.825rem;
+  font-size: var(--font-size-xs);
   line-height: 1.5;
 }
 
@@ -422,7 +422,7 @@ top and bottom lines rotate to form a cross */
 
 /* Academic Publication List Item */
 .pub-item {
-  padding: 1.25rem 0;
+  padding: var(--space-25) 0;
   border-bottom: 1px solid var(--border-subtle);
 }
 
@@ -431,36 +431,36 @@ top and bottom lines rotate to form a cross */
 }
 
 .pub-title {
-  font-size: 1.1rem;
+  font-size: var(--font-size-md);
   font-weight: 600;
-  margin-bottom: 0.35rem;
+  margin-bottom: var(--space-7);
   color: var(--text-primary);
 }
 
 .pub-authors {
-  font-size: 0.925rem;
+  font-size: var(--font-size-sm);
   color: var(--text-secondary);
-  margin-bottom: 0.35rem;
+  margin-bottom: var(--space-7);
 }
 
 .pub-venue {
-  font-size: 0.875rem;
+  font-size: var(--font-size-xs);
   font-style: italic;
   color: var(--text-muted);
-  margin-bottom: 0.6rem;
+  margin-bottom: var(--space-12);
 }
 
 .pub-links {
   display: flex;
-  gap: 0.75rem;
-  font-size: 0.825rem;
+  gap: var(--space-15);
+  font-size: var(--font-size-xs);
 }
 
 .pub-pill {
   display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
-  padding: 0.2rem 0.6rem;
+  gap: var(--space-5);
+  padding: var(--space-4) var(--space-12);
   background-color: var(--bg-subtle);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-sm);
@@ -479,14 +479,14 @@ top and bottom lines rotate to form a cross */
 .profile-layout {
   display: grid;
   grid-template-columns: minmax(170px, 220px) minmax(0, 1fr);
-  gap: 2.5rem;
+  gap: var(--space-50);
   align-items: start;
 }
 
 .profile-card {
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
-  padding: 1rem;
+  padding: var(--space-20);
   background-color: var(--bg-primary);
   text-align: center;
 }
@@ -497,7 +497,7 @@ top and bottom lines rotate to form a cross */
   aspect-ratio: 1;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 1rem;
+  margin-bottom: var(--space-20);
   margin-left: auto;
   margin-right: auto;
 }
@@ -507,8 +507,8 @@ top and bottom lines rotate to form a cross */
   margin: 0;
   padding: 0;
   display: grid;
-  gap: 0.4rem;
-  font-size: 0.9rem;
+  gap: var(--space-8);
+  font-size: var(--font-size-sm);
 }
 
 .profile-links a {
@@ -540,8 +540,8 @@ top and bottom lines rotate to form a cross */
 div.arithmatex {
   display: block;
   overflow-x: auto;
-  padding: 0.75rem 0;
-  margin: 1.25rem 0;
+  padding: var(--space-15) 0;
+  margin: var(--space-25) 0;
   text-align: center;
 }
 
@@ -550,8 +550,8 @@ div.arithmatex {
   background-color: var(--bg-primary);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
-  padding: 1.5rem;
-  margin: 1.75rem 0;
+  padding: var(--space-30);
+  margin: var(--space-35) 0;
   display: flex;
   justify-content: center;
   overflow-x: auto;
@@ -581,8 +581,8 @@ div.arithmatex {
   margin-top: auto;
   border-top: 1px solid var(--border-subtle);
   background-color: var(--bg-footer);
-  padding: 2.25rem 0;
-  font-size: 0.875rem;
+  padding: var(--space-45) 0;
+  font-size: var(--font-size-xs);
   color: var(--text-muted);
 }
 
@@ -591,12 +591,12 @@ div.arithmatex {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: var(--space-20);
 }
 
 .footer-links {
   display: flex;
-  gap: 1.25rem;
+  gap: var(--space-25);
   list-style: none;
   margin: 0;
   padding: 0;
@@ -644,32 +644,33 @@ div.arithmatex {
 }
 
 .front-page-name {
-  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  font-size: var(--font-size-home-name);
   font-weight: 400;
   line-height: 1.15;
   color: var(--text-primary);
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 var(--space-10) 0;
   letter-spacing: -0.02em;
 }
 
 .front-page-subtitle {
-  font-size: clamp(1rem, 1.8vw, 1.35rem);
+  font-size: var(--font-size-home-subtitle);
   font-weight: 400;
   line-height: 1.5;
   color: var(--text-secondary);
-  margin: 0 0 1.75rem 0;
+  margin: 0 0 var(--space-35) 0;
 }
 
 .front-page-description {
-  max-width: 42rem;
+  max-width: var(--space-840);
   color: var(--text-muted);
-  font-size: 1.05rem;
+  font-size: var(--font-size-md);
   line-height: 1.6;
-  margin: 0 0 1.25rem 0;
+  margin: 0 0 var(--space-25) 0;
 }
 
 .home-button-list {
-  margin-top: 1.25rem;
+  margin-top: var(--space-25);
+  max-width: var(--space-840);
 }
 
 .home-button-paragraph {
@@ -691,11 +692,11 @@ div.arithmatex {
   text-decoration: none;
   color: var(--bg-primary);
   background-color: var(--text-primary);
-  font-size: clamp(1.4rem, 2.75vw, 2.25rem);
+  font-size: var(--font-size-home-button);
   font-weight: 700;
   padding: 0.1em 0.25em;
-  margin-right: 0.35rem;
-  margin-bottom: 0.55rem;
+  margin-right: var(--space-7);
+  margin-bottom: var(--space-11);
   line-height: 1.35;
   transition: background-color 0.15s ease-in-out;
   border-radius: 0;
@@ -709,13 +710,13 @@ div.arithmatex {
 #home-footer {
   display: flex;
   justify-content: center;
-  gap: 1.25rem;
+  gap: var(--space-25);
   position: absolute;
   bottom: 3%;
   left: 50%;
   transform: translate(-50%, 0%);
   text-align: center;
-  font-size: 0.875rem;
+  font-size: var(--font-size-xs);
   color: var(--text-muted);
   line-height: 1.65;
   z-index: 10;
@@ -723,29 +724,4 @@ div.arithmatex {
   max-width: 500px;
 }
 
-@media (max-width: 768px) {
-  #front-page-wrapper {
-    width: 88%;
-  }
-
-  .front-page-name {
-    font-size: 2.15rem;
-  }
-
-  .front-page-subtitle {
-    font-size: 1.05rem;
-    margin-bottom: 1.25rem;
-  }
-
-  .home-button {
-    font-size: 1.35rem;
-    margin-right: 0.25rem;
-    margin-bottom: 0.45rem;
-  }
-
-  #home-footer {
-    bottom: 2%;
-    font-size: 0.8rem;
-  }
-}
 
