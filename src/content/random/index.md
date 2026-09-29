@@ -34,6 +34,12 @@ Probably not as useful in the AI era, but I’m happy if someone finds them help
 - [Git workflow and commands](https://github.com/manhowong/tips-and-cheatsheets/blob/main/dev-environment/git-workflow.md)
 - [SSH setup](https://github.com/manhowong/tips-and-cheatsheets/blob/main/dev-environment/ssh_quick_guide.md)
 
+#### AI-assisted workflow
+
+- [Quickstart for AI-Assisted Development](https://github.com/manhowong/tips-and-cheatsheets/blob/main/ai-workflow/AI-assisted-dev-quickstart.md)
+- [Agent Customization](https://github.com/manhowong/tips-and-cheatsheets/blob/main/ai-workflow/AI-assisted-dev-customization.md)
+- [AI-Assisted Research: High-level Command Words](https://github.com/manhowong/tips-and-cheatsheets/blob/main/ai-workflow/AI-assisted-research-command-words.md)
+
 #### Python / data science / ML
 
 - [List, Numpy, and Pandas Cheatsheet](https://github.com/manhowong/tips-and-cheatsheets/blob/main/python-data-ML/pandas-and-numpy-cheatsheet.md)
