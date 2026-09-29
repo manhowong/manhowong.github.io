@@ -340,7 +340,6 @@ top and bottom lines rotate to form a cross */
   gap: var(--space-8);
   margin-top: auto;
   padding-top: var(--space-15);
-  border-top: 1px solid var(--border-subtle);
 }
 
 .hashtag {
